@@ -1,0 +1,17 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.evidencia h2 {
+    text-align: center;
+}
+.evidencia {
+    margin-bottom: 5em;
+}
+.practica {
+    padding-left: 1em;
+    margin-bottom: 2em;
+    border-top-left-radius: 0.3em;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+}
