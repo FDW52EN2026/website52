@@ -1,0 +1,18 @@
+article {
+    border: solid 3px black;
+    border-radius: 1%;
+    margin-bottom: 20px;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 1%;
+    margin: 5px auto;
+    background-color: #F5F5F5;
+}
+
+.text {
+    text-align: center;
+}
+
+body {
+    background-color: #FFF5EE;
+}
