@@ -1,0 +1,22 @@
+h1 {
+    border: dotted rgba(96, 149, 92, 0.632) 5px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: -5px 5px 10px rgba(87, 135, 95, 0.786);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.top3{
+    border: 1px solid black;
+    box-shadow: -5px 5px 10px rgba(130, 160, 135, 0.786);
+    margin-bottom: 20px;
+    padding-left: 20px;
+    width: 1430px;
+}
