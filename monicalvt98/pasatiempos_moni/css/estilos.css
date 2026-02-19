@@ -1,0 +1,20 @@
+article {
+    border: 1px solid black;
+    box-shadow: 5px -5px 5px palevioletred;
+    margin-bottom: 20px;
+}
+article h2 {
+    color: palevioletred;
+}
+article dt {
+    color: rgb(96, 96, 207);
+}
+h1 {
+    border:dotted purple 5px;
+    background-color: antiquewhite;
+    color: red;
+}
+footer {
+    background-color: antiquewhite;
+    color: red;
+}
