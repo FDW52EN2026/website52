@@ -1,6 +1,6 @@
 article {
     border: 1px solid black;
-    box-shadow: 5px 5px 5px red;
+    box-shadow: 5px 5px 5px rgb(255, 255, 0);
     margin-bottom: 20px;
 }
 
@@ -10,3 +10,23 @@ article h2 {
     color: white;
 }
 
+h1{
+    text-align: center;
+}
+
+header {
+    background-color: rgb(234, 255, 149);
+    border-color: black;
+    border-style: double;
+    margin: 10px;
+}
+
+nav {
+    margin: 2px;
+}
+nav a {
+    margin: 0 1px;
+    padding: 0.2px 13px;
+    border: 1px solid black;
+    text-decoration: none;
+}
