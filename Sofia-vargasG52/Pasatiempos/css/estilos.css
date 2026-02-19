@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(226, 219, 235, 0.137);
+}
+
+header h2{
+    background-color: rgba(59, 123, 184, 0.205);
+}
+
+h1 {
+    border: dotted black 10px;
+}
+
+footer {
+    background-color: rgba(59, 123, 184, 0.205);
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: -5px 5px 10px rgba(143, 238, 217, 0.288);
+    margin-bottom: 20px;
+}
+
+section dt {
+    background-color: rgba(141, 192, 212, 0.137);
+}
+
+section h3 {
+    background-color: rgba(174, 141, 212, 0.137);
+}
+
