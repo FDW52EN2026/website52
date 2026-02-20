@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="leage of legends, lol, series, cocina">
+    <meta name="description" content="Tarea Fundamentos de desarrollo web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoNav</title>
+    <style>
+        .taside td{
+            background-color: rgba(16, 0, 245, 0);
+            border-collapse: collapse;
+            border: 3px solid rgba(255, 0, 0, 0);
+            padding: 3px;
+        }
+        .tlista {
+            background-color: rgb(181, 125, 233);
+            font-style: italic;
+            font-size: small;
+            color: aliceblue;
+            text-align: left;
+        }
+        .tmarquee {
+            color: red;
+            font-size: larger;
+            font-family: 'Lucida Sans';
+        }
+        .aside2 {
+            float: right;
+            width: 25%;
+        }
+        .layout {
+            display: flex;
+            gap: 450px;
+            align-items: stretch;
+        }
+        .layout aside {
+            flex: 1;
+            padding: 10px;
+        }
+        .layout main {
+            flex: 2;
+            padding: 10px;
+            color: rgb(233, 85, 213);
+        }
+        .lista li::marker{
+            color: black;
+            font-size: 1.25em;
+        }
+        .retroart {
+            border: 5px double rgb(238, 12, 88);
+            box-shadow: 5px 5px 5px ;
+        }
+        .part{
+            border: 3px double cadetblue;
+            box-shadow: 5px 5px 5px ;
+        }
+        .body {
+        margin: 0%;
+        height: 100vh;
+        background-image: url(img/espacio.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        }
+    </style>
+</head>
+<body class="body">
+    <header>
+        <center>
+            <table border="0" cellpadding = "0" width="488px" heigth="60px">
+                <tbody>
+                    <td align="center"></td>
+                    <td align="center" width="20"></td>
+                    <td align="center"></td>
+                </tbody>
+            </table>
+        </center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <table class="tmarquee">
+                <tr>
+                    <td text="#ff000" width="500"><marquee behavior = alternate><h3>Paginas Web Retro</h3></marquee>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <center>
+        <table border="3" cellpadding="3" class="tlista">
+            <tr>
+                  <th>
+                    <ul class="lista" style="list-style-type: circle;">
+                        <li>
+                            <nav>
+                                <a href="lol.html">LoL  &searrow;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="cocinar.html">Cocinar &fork;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="series.html">Ver series o pelis &target;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="musica.html">Escuchar musica &models;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="index.html">Index &hearts;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="pc.html">Estar en la computadora &easter;</a>
+                            </nav>
+                        </li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+        </center>
+    </header>
+</body>
+<div class="layout">
+    <aside class = "left">
+        <img src="img/img1.png" alt="Yo real hasta la muelte">
+        <audio controls>
+            <source src="msc/a new kind of love.mp3">
+        </audio>
+    </aside>
+    <main>
+        <center>
+            <img src="img/junimo1.gif" alt="">
+            <p></p>
+            <article class="retroart">
+                <p class="part">Una de mis favoritas es la pagina de Space Jam, de ahi saque la imagen de fondo, esta aun se puede encontrar en la web sin necesidad de entrar en wayback machine</p>
+                <p>
+                    <a href="https://www.spacejam.com/1996/jam.html">https://www.spacejam.com/1996/jam.html</a>
+                </p>
+                <a href="https://web.archive.org/">
+                    <img src="img/enjoyer.jpg" alt="" width="250px">
+                </a>
+                <br>
+                <br>
+                <form>
+                    <p><h1>Si o no?</h1></p>
+                    <input type="radio" id="si" name="siono" value="si">
+                    <label for="si">Si</label>
+                    <input type="radio" id="no" name="siono" value="no">
+                    <label for="no">No</label>
+                </form>
+            </article>
+            </center>
+    </main>
+    <aside class="right"><img src="img/tf.png" alt="Twisted Fate el Forajido" width="190px"></aside>
+</div>
+<footer>
+    <marquee behavior = "scroll" direction="right" scrollamount = "20" scrolldelay = "40">
+        
+        <img src="img/fish.gif" alt="" width="200px" title="Yo en la vida real, neta" alt="Imagen mia en la vida real">
+    </marquee>
+</footer>
+<!--redeploy-->
+</html> 
