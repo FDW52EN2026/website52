@@ -1,5 +1,5 @@
-body{
-    background-color: rgba(226, 219, 235, 0.137);
+header{
+    background-color: rgba(59, 124, 184, 0.116);
 }
 
 header h2{
@@ -20,11 +20,17 @@ article {
     margin-bottom: 20px;
 }
 
-section dt {
-    background-color: rgba(141, 192, 212, 0.137);
-}
-
 section h3 {
     background-color: rgba(174, 141, 212, 0.137);
 }
 
+span {
+    background-color: #9ddbc35b;
+    color: black;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+mark {
+    background-color: #9ddbc35b;
+}
