@@ -1,0 +1,22 @@
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: rgba(215, 226, 226, 0.466);
+}
+
+h1 {
+    border: dotted hsla(0, 27%, 46%, 0.625) 5px
+}
+
+footer {
+    background-color: rgba(128, 61, 61, 0.133);
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: 7px 7px 7px rgba(132, 61, 82, 0.433);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
