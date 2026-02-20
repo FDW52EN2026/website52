@@ -30,3 +30,8 @@ nav a {
     border: 1px solid black;
     text-decoration: none;
 }
+
+mark {
+  background-color: rgb(34, 0, 255);
+  color: rgb(255, 255, 255); /* color del texto */
+}
