@@ -20,3 +20,26 @@ article {
     padding-left: 20px;
     width: 1430px;
 }
+
+.imgvid{
+    display: flex;
+    gap: 50px;          
+    align-items: center;
+}
+
+.imagen{
+    width: 400px;
+    border-radius: 20px;
+}
+
+span {
+    background-color: #b39ddb;
+    color: white;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+mark {
+    background-color: rgba(206, 245, 164, 0.82);
+}
+
