@@ -1,0 +1,28 @@
+article {
+  border: 1px pink;
+  box-shadow: -5px 5px 10px grey;
+  margin-bottom: 20px;
+}
+
+article h2 {
+  color: white;
+  background: rgb(239, 142, 189);
+}
+
+img {
+  border: 10px double pink;
+  margin-left: 10px;
+}
+
+h1 {
+  border: 10px dotted palevioletred;
+}
+
+section {
+  border: 8px double pink;
+  margin-top: 10px;
+}
+
+footer {
+  color: black;
+}
