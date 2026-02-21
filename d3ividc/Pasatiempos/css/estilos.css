@@ -1,4 +1,11 @@
+header{
+    background-color: rgb(248, 173, 42);
+    border: 2px solid black;
+}
+body{
+    background-color: rgb(225, 212, 176);
+}
 footer{
-    background-color: rgb(240, 214, 142);
+    background-color: rgb(248, 173, 42);
     border: 2px solid black;
 }
