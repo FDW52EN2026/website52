@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 6</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="VerSeries.html">Pasatiempo 1</a>
+            <a href="Cocinar.html">Pasatiempo 2</a>
+            <a href="Videojuegos.html">Pasatiempo 3</a>
+            <a href="FamiliayPareja.html">Pasatiempo 4</a>
+        </nav>
+    </header>
+
+    <main>
+        <header>
+            <h2><strong>Esta página es para mostrar mis pasatiempos</strong></h2>
+        </header>
+
+        <p>De click al menú de arriba para ver más información</p>
+
+        <p>
+            En esta página se mostrarán algunos de mis 
+            <em>pasatiempos favoritos</em> y alguna información sobre ellos.
+        </p>
+
+        <p>
+            Me gusta <mark>organizar mi tiempo</mark> para disfrutar cada actividad.
+        </p>
+
+        <p>
+            Mi color favorito es <span class="colorFav">morado</span>.
+        </p>
+
+        <p><small>Esta página hablará un poco sobre algunos de mis pasatiempos</small></p>
+
+        <p>Como menciona <cite>El arte del tiempo libre</cite>, los pasatiempos mejoran nuestra calidad de vida.</p>
+
+        <h3>Música de fondo</h3>
+        <audio controls>
+            <source src="audio/Audio_musica.mp3" type="audio/mpeg">
+        </audio>
+
+        <h3>Días que dedico a mis pasatiempos</h3>
+        <table border="1">
+            <tr>
+                <th>Pasatiempo</th>
+                <th>Días</th>
+            </tr>
+            <tr>
+                <td>Ver series</td>
+                <td>Lunes y Viernes</td>
+            </tr>
+            <tr>
+                <td>Cocinar</td>
+                <td>Martes</td>
+            </tr>
+            <tr>
+                <td>Videojuegos</td>
+                <td>Sábado</td>
+            </tr>
+            <tr>
+                <td>Familia y pareja</td>
+                <td>Domingo</td>
+            </tr>
+        </table>
+
+        <h3>Formulario pequeño</h3>
+        <form>
+
+            <label>Nombre:</label>
+            <input type="text" name="nombre" required><br><br>
+
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fechaNacimiento"><br><br>
+
+            <label>Color favorito:</label>
+            <input type="color" name="color"><br><br>
+
+            <label>Pasatiempo favorito:</label>
+            <select name="pasatiempo">
+                <option value="series">Ver series</option>
+                <option value="cocinar">Cocinar</option>
+                <option value="videojuegos">Videojuegos</option>
+                <option value="familia">Familia y pareja</option>
+            </select><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" required><br><br>
+
+            <input type="submit" value="Enviar">
+
+        </form>
+
+        <h3>Video que me pone de buen humor</h3>
+        <iframe width="300" height="200"
+         src="https://www.youtube.com/embed/ScSW9C3DF18?si=48LxmxtKILc3bpuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+    </main>
+
+    <footer>
+        <address>
+            <p>Creada por: XJIL</p>
+            <p>Día 19/Febrero/2026</p>
+        </address>
+    </footer>
+
+</body>
+</html>

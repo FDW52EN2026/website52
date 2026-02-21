@@ -1,0 +1,17 @@
+article {
+border: 1px solid red;
+box-shadow: 5px 5px 40px blue;
+margin-bottom: 30px ;
+}
+
+article aside h2{
+    color: blueviolet;
+    background-color: aqua;
+}
+.foto {
+  border: 10px solid blue;
+}
+
+body{
+    background-color: lightblue;
+}

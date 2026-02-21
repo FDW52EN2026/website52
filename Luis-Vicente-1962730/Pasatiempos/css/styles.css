@@ -1,0 +1,41 @@
+h1{
+    border-style: groove;
+    text-align: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 5px 5px 5px darkgray;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin: 0 10px;
+}
+
+article{
+    border-style: groove;
+    text-align: center;
+    box-shadow: 5px 5px 5px darkgray;
+    margin-bottom: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+footer{
+    bottom: 0;
+    position: fixed;
+    color: white;
+    text-align: center;
+    width: 100%;
+    border-top: dotted;
+}

@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    border: dotted black 7px;
+    margin: 30px;
+}
+
+footer{
+    border: 3px dashed black;
+}
+
+article{
+    border: 2px solid black;
+    box-shadow: -5px -5px -5px black;
+    margin-bottom: 25px;
+    background-color: rgb(214, 214, 194);
+}
+
+dl{
+    border: 2px solid black;
+    box-shadow: -5px -5px -5px black;
+    margin-bottom: 25px;
+    background-color: rgb(214, 214, 194);
+}
+
+figcaption{
+    text-align: center;
+}
