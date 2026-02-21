@@ -1,9 +1,9 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(255, 244, 244);
 }
 
 header {
-    background-color: rgba(215, 226, 226, 0.466);
+    background-color: rgba(128, 61, 61, 0.133);
 }
 
 h1 {
@@ -21,6 +21,11 @@ article {
     padding-left: 20px;
 }
 
+span {
+    background-color: rgba(228, 207, 226, 0.885);
+    color: rgb(0, 0, 0);
+}
+
 mark {
-    background-color: rgb(212, 178, 135);
+    background-color: rgba(212, 214, 213, 0.79);
 }
