@@ -26,3 +26,7 @@ section {
 footer {
   color: black;
 }
+
+td {
+  border: 10px double pink;
+}
