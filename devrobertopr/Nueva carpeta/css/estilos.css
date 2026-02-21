@@ -1,0 +1,19 @@
+body {
+  background-color: #f4f7fa;
+}
+
+img {
+  width: 200px;
+}
+
+h1 {
+  color: #1d3557;
+}
+
+section,
+footer {
+  box-shadow: -7px 7px 7px rgba(29, 53, 87, 0.4);
+  background-color: #ffffff;
+  border: 3px solid #1d3557;
+  margin-top: 25px;
+}
