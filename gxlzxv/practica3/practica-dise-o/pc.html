@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="leage of legends, lol, series, cocina">
+    <meta name="description" content="Tarea Fundamentos de desarrollo web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoNav</title>
+    <style>
+        .taside td{
+            background-color: rgba(16, 0, 245, 0);
+            border-collapse: collapse;
+            border: 3px solid rgba(255, 0, 0, 0);
+            padding: 3px;
+        }
+        .tlista {
+            background-color: rgb(181, 125, 233);
+            font-style: italic;
+            font-size: small;
+            color: aliceblue;
+            text-align: left;
+        }
+        .tmarquee {
+            color: red;
+            font-size: larger;
+            font-family: 'Lucida Sans';
+        }
+        .aside2 {
+            float: right;
+            width: 25%;
+        }
+        .layout {
+            display: flex;
+            gap: 450px;
+            align-items: stretch;
+        }
+        .layout aside {
+            flex: 1;
+            padding: 10px;
+        }
+        .layout main {
+            flex: 2;
+            padding: 10px;
+            color: aliceblue;
+        }
+        .lista li::marker{
+            color: black;
+            font-size: 1.25em;
+        }
+   .body {
+        margin: 0%;
+        height: 120vh;
+        background-image: url(img/espacio.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    .fgc{
+        color: aliceblue;
+    }
+    </style>
+</head>
+<body class="body">
+    <header>
+        <center>
+            <table border="0" cellpadding = "0" width="488px" heigth="60px">
+                <tbody>
+                    <td align="center"></td>
+                    <td align="center" width="20"></td>
+                    <td align="center"></td>
+                </tbody>
+            </table>
+        </center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <table class="tmarquee">
+                <tr>
+                    <td text="#ff000" width="500"><marquee behavior = alternate><h3>Estar en la computadora</h3></marquee>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <center>
+        <table border="3" cellpadding="3" class="tlista">
+            <tr>
+                  <th>
+                    <ul class="lista" style="list-style-type: circle;">
+                        <li>
+                            <nav>
+                                <a href="lol.html">LoL  &searrow;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="cocinar.html">Cocinar &fork;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="series.html">Ver series o plis &target;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="musica.html">Escuchar musica &models;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="retro.html">Paginas web retro &hearts;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="index.html">Index &easter;</a>
+                            </nav>
+                        </li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+        </center>
+    </header>
+</body>
+<div class="layout">
+    <aside class = "left">
+        <img src="img/img1.png" alt="Yo real hasta la muelte">
+        <audio controls>
+            <source src="msc/a new kind of love.mp3">
+        </audio>
+    </aside>
+    <main>
+        <center>
+            <img src="img/junimo1.gif" alt="">
+            <br>
+            <br>
+            <figure>
+                <img src="img/pbfreek.jpg" alt="" width="300px">
+                <figcaption class="fgc">Butthurt Dweller</figcaption>
+            </figure>
+            <hr>
+            <div>
+                <blockquote>
+                    <pre>
+                        <p>According to <cite>knowyourmeme.com</cite></p>
+                        <strong>
+                            <p>Butthurt Dweller <br> Also known as "Gordo Granudo",<br> is an image macro series that features a <br>photo of a young adult male with a ponytail <br>and glasses accompanied by overlaid text <br>that involves a smug or judgmental statement.</p>
+                        </strong>
+                        <em>
+                            <small>
+                                <p>att: Explain ur mem :p</p>
+                            </em>
+                        </small>
+                    </pre>
+                </blockquote>
+            </div>
+        </center>
+    </main>
+    <aside class="right">
+        <br>
+        <br>
+        <iframe width="460" height="215" src="https://www.youtube.com/embed/6hZ_9l6pQ8Q?si=SiA47Ss7a05Biox1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </aside>
+</div>
+<footer>
+    <marquee behavior = "scroll" direction="right" scrollamount = "20" scrolldelay = "40">
+        
+        <img src="img/fish.gif" alt="" width="200px" title="Yo en la vida real, neta" alt="Imagen mia en la vida real">
+    </marquee>
+</footer>
+<!--redeploy-->
+</html>

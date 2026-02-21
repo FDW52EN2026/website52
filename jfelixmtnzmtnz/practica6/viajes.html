@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes - Mis Pasatiempos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mis Pasatiempos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="videojuegos.html">Videojuegos</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Viajes</h2>
+
+            <section>
+                <figure>
+                    <img src="img/Viajemaza.jpg" alt="Viajes" width="400" height="300">
+                    <figcaption>Mazatlán, mi lugar favorito</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h3>Explorando el mundo</h3>
+                <p>Viajar es descubrir que todo está por conocerse. Cada destino me regala nuevas experiencias, culturas y personas inolvidables.</p>
+            </section>
+
+            <section>
+                <h4>Lugares visitados:</h4>
+                <ul>
+                    <li>Mazatlán, Sinaloa</li>
+                    <li>Ciudad de México, CDMX</li>
+                    <li>Tampico, Tamaulipas</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Destinos soñados:</h4>
+                <ol>
+                    <li>Islandia (auroras boreales)</li>
+                    <li>Tailandia (playas paradisíacas)</li>
+                    <li>Egipto (pirámides)</li>
+                    <li>Nueva Zelanda (paisajes de El Señor de los Anillos)</li>
+                </ol>
+            </section>
+
+            <section>
+                <h4>Próximo viaje planeado:</h4>
+                <p>Cancún, Tequila y Puerto Escondido</p>
+            </section>
+
+            <section>
+                <h4>Datos viajero:</h4>
+                <dl>
+                    <dt>Mejor experiencia:</dt>
+                    <dd>Mazatlán</dd>
+                    <dt>Lugar más deseado:</dt>
+                    <dd>Islandia</dd>
+                </dl>
+            </section>
+
+            <section>
+                <h3>Video de mis viajes soñados</h3>
+                <video width="400" height="300" controls>
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                </video>
+                <p>Video de muestra - Paisajes hermosos</p>
+            </section>
+
+            <section>
+                <h3>Recomiéndame un lugar para visitar</h3>
+                <form action="#" method="post">
+                    <label for="nombre">Tu nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br><br>
+                    
+                    <label for="lugar">Lugar que recomiendas:</label>
+                    <input type="text" id="lugar" name="lugar" required>
+                    <br><br>
+                    
+                    <label>¿Ya visitaste ese lugar?</label><br>
+                    <input type="radio" id="si" name="visitado" value="si">
+                    <label for="si">Sí</label><br>
+                    <input type="radio" id="no" name="visitado" value="no">
+                    <label for="no">No, pero quiero</label>
+                    <br><br>
+                    
+                    <label for="comentarios">¿Por qué recomiendas ese lugar?</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea>
+                    <br><br>
+                    
+                    <input type="submit" value="Enviar recomendación">
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy;Mi Página de Pasatiempos - Práctica 6</p>
+    </footer>
+</body>
+</html>

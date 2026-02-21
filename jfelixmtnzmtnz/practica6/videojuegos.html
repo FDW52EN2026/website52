@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos - Mis Pasatiempos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Mis Pasatiempos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="musica.html">Música</a></li>
+                <li><a href="videojuegos.html">Videojuegos</a></li>
+                <li><a href="viajes.html">Viajes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Videojuegos</h2>
+
+            <section>
+                <figure>
+                    <img src="img/nswitch.jpg" alt="Videojuegos" width="400" height="300">
+                    <figcaption>Mi Nintendo Switch</figcaption>
+                </figure>
+            </section>
+
+            <section>
+                <h3>Aqui uso estas plataformas</h3>
+                <h4>Plataformas:</h4>
+                <ul>
+                    <li>PC</li>
+                    <li>Xbox Series S</li>
+                    <li>Nintendo Switch</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Géneros favoritos:</h4>
+                <ul>
+                    <li>RPG (Role-Playing Games)</li>
+                    <li>Aventura gráfica</li>
+                    <li>Shooters</li>
+                    <li>Estrategia</li>
+                </ul>
+            </section>
+
+            <section>
+                <h4>Top 3 juegos favoritos:</h4>
+                <ol>
+                    <li>Grand Theft Auto V</li>
+                    <li>Rocket league</li>
+                    <li>Minecraft</li>
+                </ol>
+            </section>
+
+            <section>
+                <h4>Datos gamer:</h4>
+                <dl>
+                    <dt>Horas en GTA V:</dt>
+                    <dd>Muchas</dd>
+                    <dt>Rango en Rocket League:</dt>
+                    <dd>Diamante</dd>
+                </dl>
+            </section>
+
+            <section>
+                <h3>Gameplay de Rocket League</h3>
+                <video width="400" height="300" controls>
+                    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+                </video>
+                <p>Video de muestra - Gameplay</p>
+            </section>
+
+            <section>
+                <h3>Mis estadísticas de juegos</h3>
+                <table border="1">
+                    <tr>
+                        <th>Juego</th>
+                        <th>Plataforma</th>
+                        <th>Horas aproximadas</th>
+                    </tr>
+                    <tr>
+                        <td>GTA V</td>
+                        <td>Xbox Series S</td>
+                        <td>200+</td>
+                    </tr>
+                    <tr>
+                        <td>Rocket League</td>
+                        <td>PC / Xbox</td>
+                        <td>150+</td>
+                    </tr>
+                    <tr>
+                        <td>Minecraft</td>
+                        <td>Nintendo Switch</td>
+                        <td>100+</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <h3>Recomiéndame un juego</h3>
+                <form action="#" method="post">
+                    <label for="nombre">Tu nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <br><br>
+                    
+                    <label for="juego">Juego que recomiendas:</label>
+                    <input type="text" id="juego" name="juego" required>
+                    <br><br>
+                    
+                    <label>¿En qué plataforma lo juegas?</label><br>
+                    <input type="checkbox" id="pc" name="plataforma" value="pc">
+                    <label for="pc">PC</label><br>
+                    <input type="checkbox" id="xbox" name="plataforma" value="xbox">
+                    <label for="xbox">Xbox</label><br>
+                    <input type="checkbox" id="switch" name="plataforma" value="switch">
+                    <label for="switch">Nintendo Switch</label>
+                    <br><br>
+                    
+                    <label for="genero">Género del juego:</label>
+                    <select id="genero" name="genero">
+                        <option value="rpg">RPG</option>
+                        <option value="aventura">Aventura</option>
+                        <option value="shooter">Shooter</option>
+                        <option value="estrategia">Estrategia</option>
+                    </select>
+                    <br><br>
+                    
+                    <input type="submit" value="Enviar recomendación">
+                </form>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy;Mi Página de Pasatiempos - Práctica 6</p>
+    </footer>
+</body>
+</html>

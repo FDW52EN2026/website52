@@ -1,0 +1,328 @@
+h1,
+h2,
+p{
+    margin: 0;
+    padding: 0;
+    color: #dee2e6;
+    font-family:"Oswald";
+    text-align: justify;
+    font-size: 125%;
+}
+
+
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    background-color: #6a040f;
+    width: 95%;
+    padding: 5px;
+    font-size: 210%;
+}
+
+.body-container {
+    background-color: #17191b; 
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.top-container {
+    width: 60%;
+    margin-bottom: 3rem;
+}
+
+.elements-container {
+    background-color: #660708;
+    margin: 30px;
+    padding: 30px;
+
+    .img-container {
+        .img-elements {
+            display: flex;
+            justify-content: space-between;
+
+            img {
+                width: 45%;
+                height: 175px;
+                margin: 10px;
+
+            }
+        }
+    }
+}
+
+.headers-main {
+    min-width: 100vw;
+}
+
+.main-juegos h1 {
+
+    margin: 0%;
+    padding: 5px;
+    color: #dee2e6;
+    font-family: "Oswald";
+    font-size: 165%;
+    text-align: center;
+}
+
+.main-juegos {
+    background-color: #6a040f;
+    width: 98%;
+
+}
+
+.main-article {
+    border: 1px solid #ffea00;
+    box-shadow: 5px 5px 5px #ff9505;
+    margin-bottom: 20%;
+    margin-top: 4%;
+    width: 96%;
+    padding: 1%;
+}
+
+.main-article h2 {
+    margin: 0%;
+    padding: 0%;
+    color: #dee2e6;
+    font-family: "Playwrite NZ Basic";
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.main-parrafo p {
+    text-align: justify;
+    font-size: 115%;
+    margin-top: 3%;
+
+}
+
+.img-first{
+    margin-top: 2%;
+    .primera-img{
+        img{
+            border-radius: 10%;
+            margin: 0 auto;
+            width: 40%;
+            display: block;
+            box-shadow: 0 10px 15px #e5383b;
+        }
+    }
+}
+
+
+.main-juegos {
+    background-color: #6a040f;
+    width: 100%;
+    margin-top: 5%;
+}
+.main-juegos h1 {
+    text-align: center;
+    font-size: 200%;
+}
+.parrafo-2 p {
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 125%;
+}
+
+
+.main-lista li {
+    background-color: #5e6572;
+    width: 45%;
+    text-align: center;
+    list-style-position: inside;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    box-shadow: 0 4px 8px #e85d04;
+}
+
+.main-lista {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.classic-container-top {
+  margin: 0%;
+  margin-top: 2%;
+  padding: 1%;
+  width: 95%;
+  background-color: #343a40;
+  color: #ffea00;
+  font-size: 160%;
+  
+
+  .classic-elements {
+    padding: 2%;
+
+    .img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2%;
+
+      .img-elements {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+
+        .img-item {
+          width: 48%;
+          display: flex;
+          flex-direction: column;
+          overflow: hidden;
+
+          li {
+            margin-bottom: 1%;
+            color: #e2c937;
+            text-align: center;
+            background-color: #6c757d;
+            border-radius: 4%;
+            width: 80%;
+            border: 2px solid #ff6600; 
+          }
+
+          img {
+            border-radius: 3%;
+            margin-top: 3%;
+            width: 100%;
+            height: 85%;
+            display: block;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+.classic-container-bottom {
+  margin: 0%;
+  margin-top: 2%;
+  padding: 0%;
+  width: 97%;
+  background-color: #343a40;
+  color: #ffea00;
+  font-size: 160%;
+
+  .classic-elements-bottom {
+    padding: 2%;
+
+    .img-container-bottom {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2%;
+
+      .img-elements-bottom {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+
+        .img-item-bottom {
+          width: 48%;
+
+          li {
+            margin-bottom: 1%;
+            color: #e2c937;
+            text-align: center;
+            background-color: #6c757d;
+            border-radius: 4%;
+            width: 80%;
+            border: 2px solid #ff6600; 
+          }
+
+          img {
+            border-radius: 3%;
+            margin-top: 3%;
+            width: 95%;
+            height: 85%; 
+            display: block;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.classic-history h1 {
+    margin: 0%;
+    padding: 5px;
+    color: #dee2e6;
+    font-family: "Playwrite NZ Basic";
+    font-size: 200%;
+    text-align: center;
+}
+
+
+
+.classic-history{
+    background-color: #6a040f;
+    width: 95%;
+    margin-top: 3%;
+}
+
+.parrafo-historia {
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 120%;
+}
+
+.subtitulo {
+    background-color: #660708;
+    width: 95%;
+    margin-top: 3%;
+    
+
+}
+.subtitulo h2{
+    font-size: 200%;
+}
+
+.lista_numeros ol li {
+    background-color: #0b2545;
+    text-align: left;
+    color: #dee2e6;
+    font-size: 160%;
+    width: 65%;
+    padding: 1%;
+    margin-left: 15%;
+    text-align: center;
+
+}
+
+.seccion-main {
+    background-color: #6a040f;
+    padding: 8%;
+    width: 83%;
+
+    .seccion-elements h2 {
+        background-color: #0b2545;
+        font-size: 200%;
+        color: #e2c937;
+        font-weight: bold;
+    }
+
+    .seccion-elements dt {
+        margin-top: 3%;
+        color: #dee2e6;
+        font-size: 180%;
+    }
+
+    .seccion-elements dd {
+        color: #dee2e6;
+        padding-top: 1%;
+        font-size: 165%;
+    }
+}

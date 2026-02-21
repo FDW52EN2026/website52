@@ -1,0 +1,77 @@
+body {
+    background-color: #ffffff; 
+    color: #2F2F2F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2a152e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #6c1586;
+    font-weight: bold;
+}
+
+.inicio {
+    color:black !important;
+}
+
+.imagen {
+    display: block;
+    width: 700PX;
+    height: auto;
+    margin: auto;
+}
+
+.pie {
+    display: flex;
+    justify-content: center;
+}
+
+.comidas {
+    text-align: left;      
+    width: fit-content;    
+    margin: 0 auto;        
+    list-style-position: outside;
+}
+
+.futbol {
+    text-align: left;      
+    width: fit-content;    
+    margin: 0 auto;        
+    list-style-position: outside;
+}
+
+.kevin {
+    text-align: left;      
+    width: fit-content;    
+    margin: 0 auto;        
+    list-style-position: outside;
+}
+
+.trabajo {
+    text-align: left;      
+    width: fit-content;    
+    margin: 0 auto;        
+    list-style-position: outside;
+}
+
+.juegos {
+    text-align: left;      
+    width: fit-content;    
+    margin: 0 auto;        
+    list-style-position: outside;
+}

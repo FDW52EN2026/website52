@@ -1,0 +1,14 @@
+h1 {
+    border: groove black 10px;
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: -5px 5px 10px blue;
+    margin-bottom: 20px;
+}
+
+article header h2 {
+    color: white;
+    background-color: black;
+}

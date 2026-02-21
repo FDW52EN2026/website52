@@ -1,0 +1,37 @@
+article {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgb(255, 255, 0);
+    margin-bottom: 20px;
+}
+
+/*se pone para que solo los h2 de article se cambien no todos los h2 en general */
+article h2 {
+    background-color: black;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+
+header {
+    background-color: rgb(234, 255, 149);
+    border-color: black;
+    border-style: double;
+    margin: 10px;
+}
+
+nav {
+    margin: 2px;
+}
+nav a {
+    margin: 0 1px;
+    padding: 0.2px 13px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+mark {
+  background-color: rgb(34, 0, 255);
+  color: rgb(255, 255, 255); /* color del texto */
+}

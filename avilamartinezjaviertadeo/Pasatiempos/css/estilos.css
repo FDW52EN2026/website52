@@ -1,0 +1,20 @@
+article {
+    border: 1px solid yellow;
+    box-shadow: 10px 10px 10px rgb(216, 2, 2);
+    margin-bottom: 20px;
+}
+
+article header h2 {
+    color: brown;
+    background-color: azure;
+}
+
+article header h3 {
+    color: red;
+    background-color: brown;
+}
+
+article header h1 {
+    color: goldenrod;
+    background-color: blanchedalmond;
+}
