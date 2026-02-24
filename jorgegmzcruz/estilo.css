@@ -3,3 +3,12 @@ h4 {
     color: white;
 
 }
+article {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgb(59, 56, 56);
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+}
