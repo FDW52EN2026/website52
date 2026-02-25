@@ -12,3 +12,8 @@ body {
 [lang=en] {
     background-color: black;
 }
+
+a {
+    text-decoration: none;
+    color: crimson;
+}
