@@ -4,3 +4,11 @@
     border-color: crimson;
     margin: 10px;
 }
+
+body {
+    color: white;
+}
+
+* {
+    background-color: black;
+}
