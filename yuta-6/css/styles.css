@@ -9,6 +9,6 @@ body {
     color: white;
 }
 
-* {
+[lang=en] {
     background-color: black;
 }
