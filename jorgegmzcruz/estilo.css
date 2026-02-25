@@ -12,3 +12,10 @@ article {
 h4{
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
