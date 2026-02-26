@@ -15,7 +15,21 @@ h4{
 
 h1 {
     text-align: center;
-    border: 1px solid black;
+    border: 2px solid black;
     margin-top: 10px;
     margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    background-color: gainsboro;
+}
+
+h2 {
+    text-align: center;
+     text-shadow: 5px 5px 5px rgb(136, 125, 122);
+}
+
+p.inicio {
+    text-align: center;
 }
