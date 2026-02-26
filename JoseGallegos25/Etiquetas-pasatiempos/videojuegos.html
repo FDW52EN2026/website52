@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,36 +9,85 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h2><span>Sección:</span> <strong>Videojuegos</strong></h2>
+    </header>
     <nav>
         <a href="index.html">HOME</a>
         <a href="videojuegos.html">VIDEOJUEGOS</a>
         <a href="mascotas.html">MASCOTAS</a>
-         <a href="ejercicio.html">EJERCICIO</a>
+        <a href="ejercicio.html">EJERCICIO</a>
         <a href="comida.html">COMIDA</a>
         <a href="dragon.html">DRAGON BALL</a>
     </nav>
-     <article>
     <main>
-    <h1>VIDEOJUEGOS</h1>
-    <p>Los videojuegos siempre han sido parte importante de mi vida pero uno que recuerdo con mucho cariño y jugar todos los dias es el Mario Galaxy de la Wii</p>
-    <img src="img/galaxy.jpg" alt="Juegos">
-    <section>
+        <article>
+            <h1>VIDEOJUEGOS</h1>
+            <p>Los videojuegos siempre han sido parte <em>importante</em> de mi vida, pero uno que recuerdo con mucho cariño y jugaba todos los días es el <strong>Mario Galaxy</strong> de la <abbr title="Nintendo Wii">Wii</abbr>.</p>
+
+            <figure>
+                <img src="img/galaxy.jpg" alt="Juegos">
+                <figcaption><cite>Super Mario Galaxy</cite>, uno de los mejores juegos que he jugado</figcaption>
+            </figure>
+
+            <hr>
+
+            <section>
                 <h2>Videojuegos favoritos</h2>
                 <ul>
-                    <li>Dark souls (saga completa)</li>
-                    <li>Mario galaxy</li>
-                    <li>The witcher 3</li>
+                    <li><mark>Dark Souls</mark> (saga completa)</li>
+                    <li>Mario Galaxy</li>
+                    <li>The Witcher 3</li>
                     <li>Terraria</li>
                 </ul>
             </section>
-    </article>
+
+            <hr>
+
+            <section>
+                <h2>Descripción de favoritos</h2>
+                <dl>
+                    <dt><b>Dark Souls</b></dt>
+                    <dd>Saga de <i>acción y rol</i> conocida por su alta dificultad y mundo interconectado. Desarrollada por <strong>FromSoftware</strong>.</dd>
+                    <dt><b>The Witcher 3</b></dt>
+                    <dd>Juego de <em>mundo abierto</em> basado en la saga de libros de <cite>The Witcher</cite> de Andrzej Sapkowski.</dd>
+                </dl>
+            </section>
+
+            <blockquote>
+                <p><cite>Los videojuegos son la forma de arte más elevada del siglo XXI.</cite></p>
+            </blockquote>
+
+            <div>
+                <h2>Tráiler de Dark Souls</h2>
+                <iframe width="700" height="400"
+                    src="https://youtu.be/_zDZYrIUgKE?si=9YyUDvTiK7z2bbTR"
+                    title="Dark Souls trailer"
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <section>
+                <h2>¿Coincidimos en gustos?</h2>
+                <label>¿Te gustaron los mismos videojuegos que yo? 
+                    <input type="checkbox">
+                </label>
+                <br><br>
+                <label>Escribe tu juego favorito: 
+                    <input type="text" placeholder="Ej. The Legend of Zelda">
+                </label>
+                <br><br>
+                <input type="button" value="Enviar info">
+            </section>
+        </article>
     </main>
-    <aside></aside>
-    <footer></footer>
-     <address>
-            <p>Derechos reservados &copy; </p>
-            <p>Desarrollado por: JLGL</p>
+    <aside>
+        <p><span>Recomendación:</span> Si te gustan los retos, <b>Dark Souls</b> es para ti.</p>
+    </aside>
+    <footer>
+        <address>
+            <small>Derechos reservados &copy;</small><br>
+            <p>Desarrollado por: <abbr title="Jose Luis Garcia Lopez">JLGL</abbr></p>
         </address>
+    </footer>
 </body>
 </html>

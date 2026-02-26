@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,36 +9,69 @@
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    <header></header>
+    <header>
+        <h2><span>Sección:</span> <strong>Mascotas</strong></h2>
+    </header>
     <nav>
         <a href="index.html">HOME</a>
         <a href="videojuegos.html">VIDEOJUEGOS</a>
         <a href="mascotas.html">MASCOTAS</a>
-         <a href="ejercicio.html">EJERCICIO</a>
+        <a href="ejercicio.html">EJERCICIO</a>
         <a href="comida.html">COMIDA</a>
-       <a href="dragon.html">DRAGON BALL</a>
+        <a href="dragon.html">DRAGON BALL</a>
     </nav>
-    <article>
     <main>
-    <h1>MASCOTAS</h1>
-    <p>El primero en llegar fue Tobias le encanta dormir, la segunda en llegar fue su hermana Hanna ellos ya tienen 5 años de haber llegado a mi casa y por ultimo esta la mas peluda Uma que llego hace apenas 3 años</p>
-    <img src="img/dormido.jpg" alt="Tobias"> <img src="img/perros1.jpg" alt="Hanna y Uma">
-    <section>
-                <h2>Mis mascotas</h2>
-                <ol>
-                    <li>Tobias el mas delgado</li>
-                    <li>Hanna hermana de tobias, la mas gorda</li>
-                    <li>Uma a pesar de no ser hermana de ninguno se adapto a los otros perros</li>
-                </ol>
+        <article>
+            <h1>MASCOTAS</h1>
+            <p>El primero en llegar fue <strong>Tobias</strong>, le encanta dormir.<br>
+            La segunda en llegar fue su hermana <strong>Hanna</strong>, ellos ya tienen <mark>5 años</mark> de haber llegado a mi casa.<br>
+            Por último está la más peluda, <strong>Uma</strong>, que llegó hace apenas 3 años.</p>
+
+            <figure>
+                <img src="img/dormido.jpg" alt="Tobias">
+                <figcaption><em>Tobias</em>, el más tranquilo y dormilón de los tres</figcaption>
+            </figure>
+
+            <figure>
+                <img src="img/perros1.jpg" alt="Hanna y Uma">
+                <figcaption><em>Hanna y Uma</em>, las dos chicas de la casa</figcaption>
+            </figure>
+
+            <hr>
+
             <section>
-    </article>
+                <h2>Mis mascotas</h2>
+                <dl>
+                    <dt><b>Tobias</b></dt>
+                    <dd>El más delgado, <i>experto en dormir</i> y muy tranquilo.</dd>
+                    <dt><b>Hanna</b></dt>
+                    <dd>Hermana de Tobias, la más gordita.</dd>
+                    <dt><b>Uma</b></dt>
+                    <dd>A pesar de no ser hermana de ninguno, <em>se adaptó perfectamente</em> a los otros perros.</dd>
+                </dl>
+            </section>
+
+            <blockquote>
+                <p><cite>Un perro es lo único en la tierra que te ama más de lo que se ama a sí mismo.</cite></p>
+            </blockquote>
+
+            <div>
+                <h2>Audio de mis perros ladrandole a un gato</h2>
+                <audio controls>
+                    <source src="audios/ladridos.mp3" type="audio/mpeg">
+                    
+                </audio>
+            </div>
+        </article>
     </main>
-    
-    <aside></aside>
-    <footer></footer>
-     <address>
-            <p>Derechos reservados &copy; </p>
-            <p>Desarrollado por: JLGL</p>
+    <aside>
+        <p><span>Dato:</span> Los perros son considerados los mejores amigos del ser humano.</p>
+    </aside>
+    <footer>
+        <address>
+            <small>Derechos reservados &copy;</small><br>
+            <p>Desarrollado por: <abbr title="Jose Luis Garcia Lopez">JLGL</abbr></p>
         </address>
+    </footer>
 </body>
 </html>

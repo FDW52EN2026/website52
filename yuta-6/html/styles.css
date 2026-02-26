@@ -1,0 +1,61 @@
+.btn{
+    border-radius: 10px;
+    border-color: black;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    background-color: palevioletred;
+    padding: 20px;
+}
+
+.a {
+    background-color: rebeccapurple;
+
+}
+
+.b {
+    background-color: aqua;
+}
+
+#pa {
+    color: white;
+}
+
+#pb {
+    color: darkblue;
+}
+
+#headart {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#val {
+    display: inline-block;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#victoria {
+    background-color: rgb(143, 27, 27);
+    color: wheat;
+}
+
+#wow {
+    background-color: rgb(109, 63, 45);
+    color: white;
+    display: inline-block;
+}
+
+.o {
+    background-color: black;
+    color: white;
+}
+
+.p {
+    background-color: rgb(71, 4, 4);
+    color: white;
+}
