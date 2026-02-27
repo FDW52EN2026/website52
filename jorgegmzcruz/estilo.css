@@ -1,0 +1,53 @@
+h4 {
+    background-color: black;
+    color: white;
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px rgb(59, 56, 56);
+    margin-bottom: 20px;
+}
+
+h4{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+section {
+    background-color: gainsboro;
+}
+
+h2 {
+    text-align: center;
+     text-shadow: 5px 5px 5px rgb(255, 255, 255);
+}
+
+p.inicio {
+    text-align: center;
+    border: 2px solid black;
+    background-color: white;
+    margin-left: 600px;
+    margin-right: 600px;
+
+}
+
+body {
+    background-color: rgb(125, 124, 124);
+}
+
+article {
+    background-color: white;
+}
+header {
+    background-color: rgb(128, 128, 128);
+}

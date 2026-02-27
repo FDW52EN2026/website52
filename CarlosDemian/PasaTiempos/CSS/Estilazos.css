@@ -1,0 +1,12 @@
+nav a {
+    padding:10px;
+    background-color: lightblue;
+    color:black;
+    font-size: 15px;
+}
+header h1 {
+    font-size: xx-large;
+    color:black;
+    font-family: sans-serif;
+    background-color: lightblue;
+}

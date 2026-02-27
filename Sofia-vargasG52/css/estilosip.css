@@ -1,0 +1,22 @@
+section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: rgba(59, 123, 184, 0.205);
+    color: rgb(18, 62, 104);
+}
+
+p {
+    color: rgb(167, 137, 42);
+}
+
+span {
+    background-color: #5531973a;
+    color: rgb(80, 25, 102);
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+
+

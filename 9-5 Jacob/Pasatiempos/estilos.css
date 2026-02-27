@@ -1,0 +1,107 @@
+body{
+    background-color:#ffffff;
+    color: #415f7d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+.videojuego {
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: #564787;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.8; 
+    color: aliceblue;
+    }
+
+.deportes {
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: #20bf55;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.8; 
+    color: black;
+    }
+    
+.cine {
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: #e5383b;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.8; 
+    color: aliceblue;
+    }
+
+    .stup {
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: #90CAF9;
+    padding: 20px;
+    font-size: 17px;
+    line-height: 1.8; 
+    color: black;
+    }
+
+.imga {
+    width: 750px; 
+    height: auto; 
+    display: block;
+    border-radius: 10px;
+    margin: 0px;
+    } 
+
+img {
+    width: 300px; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 10px;
+    }
+
+.galeria {
+        display: flex;
+        gap: 12px;
+
+    }
+
+.galeria img {
+        width: 150px;
+        height: auto;
+    }
+
+.dungeon {
+    width: 500px; 
+    height: auto; 
+    display: block;
+    margin: 20px auto; 
+    border-radius: 10px;
+    }
+
+    .Interstellar img {
+        width: 800px;
+        height: auto;
+    }
+
+nav{
+    background-color:gray;
+    padding: 2px;
+    }
+
+nav a{
+    padding: 10px;
+    color: aqua;
+    }
+
+dt {
+    padding: .60%;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+video {
+    width: 200px;
+}

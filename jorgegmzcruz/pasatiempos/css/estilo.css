@@ -12,6 +12,7 @@ article h2 {
 
 h1{
     text-align: center;
+    border-radius: 2% solid black ;
 }
 
 header {
@@ -19,6 +20,9 @@ header {
     border-color: black;
     border-style: double;
     margin: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 nav {
@@ -29,4 +33,14 @@ nav a {
     padding: 0.2px 13px;
     border: 1px solid black;
     text-decoration: none;
+}
+
+.deporte {
+  background-color: rgb(34, 0, 255);
+  color: rgb(255, 255, 255); /* color del texto */
+}
+
+footer {
+    background-color: rgb(255, 255, 177);
+    text-align: center;
 }
