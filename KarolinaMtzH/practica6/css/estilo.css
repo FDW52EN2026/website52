@@ -1,0 +1,20 @@
+article {
+     border: 1px solid black;
+    box-shadow:13px 13px 13px hsl(286, 100%, 50%);
+    margin-bottom: 60px;
+}
+
+article header h2 {
+    color: white;
+    background-color: black;
+}
+.foto{
+  display: block;
+  margin: auto;
+  border: 20px double #000000;
+  border-radius: 200%;
+}
+h1{
+    background-color: gray;
+    font-size: 50px;
+}

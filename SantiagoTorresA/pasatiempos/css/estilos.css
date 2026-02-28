@@ -1,0 +1,57 @@
+h1 {
+    border-style: dashed;
+    border-color: black;
+    text-align: center;
+}
+
+body {
+    background-color:cadetblue;
+    color: black;
+}
+footer {
+    background-color:darkslategray;
+    color: white;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+
+}
+h2 {
+    color: black;
+}
+article {
+    border: 1px solid rgba(0, 152, 152, 0.863);
+    box-shadow: -5px 5px 10px rgb(11, 131, 147);
+    margin-bottom: 25px;
+    background-color:teal
+}
+header {
+    text-align: center;
+    background-color: rgb(32, 150, 140);
+}
+
+section footer {
+    background-color: rgb(1, 50, 50);
+    color: white;
+}
+
+figcaption {
+    text-align: center;
+}
+
+span {
+    font-size: larger;
+    color: yellowgreen;
+    background-color: black;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+table {
+    padding: 10px;
+}
+fieldset {
+    border-color: black;
+}

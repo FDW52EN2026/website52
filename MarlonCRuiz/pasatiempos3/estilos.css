@@ -1,0 +1,136 @@
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h2, h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: lightcyan;
+    margin: 10px;
+    border: double;
+    padding: 5px 10px;
+}
+footer address {
+    margin: 0;
+}
+footer p {
+    margin: 2px 0;
+    padding: 0;
+}
+P {
+    padding: 1%;
+}
+
+nav {
+    margin: 2px;
+    padding: .05%;
+    text-align: center;
+}
+nav a {
+    margin: 0 1px;
+    padding: 0.2px 13px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+body {
+    color: black;
+    border: dotted black 10px;
+    background-color: cyan;
+}
+
+header {
+    background-color: lightcyan;
+    border-color: black;
+    border-style: double;
+    margin: 10px;
+}
+
+main {
+    background-color: lightcyan;
+    margin: 10px;
+    border-style: double;
+
+}
+
+.bandas { 
+    font-style: italic; 
+    padding-left: 41.1%; 
+}
+
+.bandas li {
+    text-align: left;
+    
+}
+.juegosn {
+    font-style: italic;
+    text-align: center;   
+}
+
+.juegosn ol {
+    display: inline-block; 
+    text-align: left;      
+    padding-left: 20px;    
+    margin: 0 auto;
+}
+
+dl {
+    margin: 10px;
+}
+
+dt {
+    font-size: large;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+pre {
+    font-style: normal;}
+
+.video-centro {
+    text-align: center;
+}
+
+.video-centro figcaption {
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.tabla-guitarras {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.tabla-guitarras th,
+.tabla-guitarras td {
+    border: 2px solid black;
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.formulario-musica {
+    width: 60%;              
+    margin: 40px auto;                
+    padding: 20px;                   
+    border: 3px double black;               
+}
+
+.formulario-musica h2 {          
+    text-align: center;         
+}
+
+.formulario-musica form div {
+    margin-bottom: 10px;         
+}
+
+audio {
+    display: block;
+    margin: 10px auto;
+}

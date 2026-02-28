@@ -1,0 +1,19 @@
+.Practica {
+    border: 4px;
+    border-style: dashed;
+    border-color: crimson;
+    margin: 10px;
+}
+
+body {
+    color: white;
+}
+
+[lang=en] {
+    background-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+}

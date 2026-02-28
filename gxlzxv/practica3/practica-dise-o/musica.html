@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="leage of legends, lol, series, cocina">
+    <meta name="description" content="Tarea Fundamentos de desarrollo web">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoNav</title>
+    <style>
+        .taside td{
+            background-color: rgba(16, 0, 245, 0);
+            border-collapse: collapse;
+            border: 3px solid rgba(255, 0, 0, 0);
+            padding: 3px;
+        }
+        .tlista {
+            background-color: rgb(181, 125, 233);
+            font-style: italic;
+            font-size: small;
+            color: aliceblue;
+            text-align: left;
+        }
+        .tmarquee {
+            color: red;
+            font-size: larger;
+            font-family: 'Lucida Sans';
+        }
+        .aside2 {
+            float: right;
+            width: 25%;
+        }
+        .layout {
+            display: flex;
+            gap: 450px;
+            align-items: stretch;
+        }
+        .layout aside {
+            flex: 1;
+            padding: 10px;
+        }
+        .layout main {
+            flex: 2;
+            padding: 10px;
+        }
+        .lista li::marker{
+            color: black;
+            font-size: 1.25em;
+        }
+    .body {
+        margin: 0%;
+        height: 100vh;
+        background-image: url(img/espacio.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+    }
+    </style>
+</head>
+<body class="body">
+    <header>
+        <center>
+            <table border="0" cellpadding = "0" width="488px" heigth="60px">
+                <tbody>
+                    <td align="center"></td>
+                    <td align="center" width="20"></td>
+                    <td align="center"></td>
+                </tbody>
+            </table>
+        </center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <center>
+            <table class="tmarquee">
+                <tr>
+                    <td text="#ff000" width="500"><marquee behavior = alternate><h3>Escuchar musica</h3></marquee>
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <center>
+        <table border="3" cellpadding="3" class="tlista">
+            <tr>
+                  <th>
+                    <ul class="lista" style="list-style-type: circle;">
+                        <li>
+                            <nav>
+                                <a href="lol.html">LoL  &searrow;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="cocinar.html">Cocinar &fork;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="series.html">Ver series o pelis &target;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="index.html">Index &models;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="retro.html">Paginas web retro &hearts;</a>
+                            </nav>
+                        </li>
+                        <li>
+                            <nav>
+                                <a href="pc.html">Estar en la computadora &easter;</a>
+                            </nav>
+                        </li>
+                    </ul>
+                </th>
+            </tr>
+        </table>
+        </center>
+    </header>
+</body>
+<div class="layout">
+    <aside class = "left">
+        <img src="img/img1.png" alt="Yo real hasta la muelte">
+        <audio controls>
+            <source src="msc/a new kind of love.mp3">
+        </audio>
+    </aside>
+    <main>
+        <center>
+            <img src="img/junimo1.gif" alt="">
+            <p></p>
+            <a href="https://www.youtube.com/watch?v=G40womhwSds&list=RDwvR7EtLuJfg&index=2">&heartsuit; &heartsuit; &heartsuit; </a>
+            <P></P>
+            <img src="img/odear.gif" alt="" width="300">
+        </center>
+    </main>
+    <aside class="right">
+        <video controls width="300" height="280">
+            <source src="msc/KASE.O - 10. MAZAS Y CATAPULTAS Prod  JAVATO JONES y GONZALO LASHERAS.mp4" type="video/mp4">
+        </video>
+    </aside>
+</div>
+<footer>
+    <marquee behavior = "scroll" direction="right" scrollamount = "20" scrolldelay = "40">
+        
+        <img src="img/fish.gif" alt="" width="200px" title="Yo en la vida real, neta" alt="Imagen mia en la vida real">
+    </marquee>
+</footer>
+<!--redeploy-->
+</html>

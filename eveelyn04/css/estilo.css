@@ -1,0 +1,19 @@
+
+h2 {
+    background-color: rgba(213, 243, 188, 0.685);
+    color: rgba(60, 87, 55, 0.794);
+    padding: 5px;
+    
+}
+
+mark {
+    background-color: rgba(179, 203, 166, 0.7);
+    padding: 2px 4px;
+}
+
+article {
+    border: 1px solid black;
+    box-shadow: -5px 5px 10px rgba(87, 135, 95, 0.786);
+    margin-bottom: 20px;
+    padding-left: 20px;
+}

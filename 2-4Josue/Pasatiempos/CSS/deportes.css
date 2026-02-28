@@ -1,0 +1,54 @@
+body {
+  background-color:  #f46c6c;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.ps {
+ text-align: left;
+}
+
+.ps nav a {
+  color: rgb(0, 0, 0);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.Tema {
+  font-size: 96px;
+  margin-bottom: 5px;
+}
+
+.desc {
+  font-size: 50px;
+  margin-bottom: 5px;
+}
+
+.p1 {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+.taek img {
+  width: 30%;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 0 80px rgba(13, 192, 227, 0.9);
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+.lol {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
