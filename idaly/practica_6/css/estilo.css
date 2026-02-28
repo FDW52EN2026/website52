@@ -1,0 +1,14 @@
+article{
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px;
+    margin-bottom: 20px;
+}
+
+article {
+    color: white;
+    background-color: black;
+}
+
+footer{
+    background-color: #9FAA74
+     }
