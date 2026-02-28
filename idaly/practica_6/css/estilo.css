@@ -12,3 +12,8 @@ article {
 footer{
     background-color: #9FAA74
      }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
