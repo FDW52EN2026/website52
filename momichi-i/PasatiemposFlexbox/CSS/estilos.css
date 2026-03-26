@@ -55,6 +55,12 @@ h2 {
     background-color: rgb(250, 250, 204);
 }
 
+.exp {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
 .c1 {
     display: flex;
     flex-direction: row;
