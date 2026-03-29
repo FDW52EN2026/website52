@@ -10,6 +10,13 @@ body {
     text-align: center;
 }
 
+hr {
+    width: 90%;
+    background-color: pink;
+    padding: 2px;
+    border: 2px solid black;
+}
+
 h1 {
     text-align: center;
     margin: 50px;
@@ -65,4 +72,10 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.c2 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 260px;
 }
