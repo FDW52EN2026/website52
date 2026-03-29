@@ -1,0 +1,21 @@
+.taek {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.class_foto1 {
+    border: 1em solid red;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.class_foto1 img {
+    width: 100%; 
+    max-width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
