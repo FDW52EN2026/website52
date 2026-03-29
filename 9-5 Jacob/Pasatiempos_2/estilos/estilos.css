@@ -1,0 +1,17 @@
+body{
+    background-color:#ffffff;
+    color: #415f7d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+}
+
+
+nav{
+    background-color:gray;
+    padding: 2px;
+    }
+
+nav a{
+    padding: 10px;
+    color: aqua;
+    }

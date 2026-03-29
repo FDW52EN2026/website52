@@ -1,0 +1,82 @@
+/* --- Título Centrado --- */
+.main-title {
+  text-align: center; /* Centramos el titulo */
+  margin-top: 50px;    /* Espacio respecto al nav */
+  font-family: sans-serif;
+  color: #222;
+}
+
+article {
+    border: 1px solid rgb(57, 57, 57);
+    box-shadow: -5px 5px 10px rgb(60, 65, 66);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+article h2 {
+    color: white;
+    background-color: rgb(72, 72, 72);
+}
+
+
+h2 {
+  text-align: center; /* Centramos el subtitulo */
+  margin-top: 30px;
+  font-family: sans-serif;
+  color: #555;
+}
+
+h3 {
+  text-align: center; /* Centramos el subtitulo */
+  margin-top: 30px;
+  font-family: sans-serif;
+  color: #555;
+}
+
+.centrar_p {
+  text-align: center; /* Centramos el párrafo */
+  font-family: sans-serif;
+  color: #333;
+}
+/* --- centrar una imagen --- */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: #2e2c2c 5px solid; /* Agrega un borde azul alrededor de la imagen */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center; /* Esto centra todo el menú */
+  padding: 1rem 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px; /* Les da un espaciado a los */
+}
+
+/* Aquí basicamente le damos color a los enlaces */
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/*Cuando pasamos el mouse por arriba de un enlace, cambia el color */
+.nav-links a:hover {
+  color: #4e4f51;
+}
