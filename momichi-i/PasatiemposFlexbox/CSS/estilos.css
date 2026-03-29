@@ -79,3 +79,9 @@ h2 {
     flex-flow: column wrap;
     height: 260px;
 }
+
+.c3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
