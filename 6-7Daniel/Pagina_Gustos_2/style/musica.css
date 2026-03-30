@@ -49,10 +49,9 @@
             align-items: center;
             width: 100%;
             background: linear-gradient(135deg, #0f0f0f, #1c1c1c);
-            ;
+            
 
             h2 {
-
                 color: #ffffff;
                 border: 2px solid #7a5cff;
                 letter-spacing: 2px;
@@ -63,8 +62,6 @@
             }
 
             img {
-
-
                 width: 90%;
                 height: 230px;
                 object-fit: contain;
@@ -74,7 +71,6 @@
             }
 
             p {
-
                 flex-grow: 1;
                 border: 2px solid #7a5cff;
                 align-items: center;
@@ -245,4 +241,32 @@
     }
 
 
+}
+
+.codigoCss{
+    background-color: #8502dc; 
+
+    h1{
+
+        text-align: center;  
+       
+    }
+}
+
+.parrafo1{
+
+    color: aqua;
+    border: 5px double #7a5cff;
+    width: 95%;
+    text-align: center;
+}
+
+.codigoCss2{
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 2%;
+   
+    
 }
