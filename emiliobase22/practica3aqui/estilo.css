@@ -21,8 +21,11 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-     justify-content: space-between
+    max-width: 0ch;
+
 }
+ 
+
 .caja img {
     max-width: 100px;
     border-radius: 8px;
@@ -115,7 +118,15 @@ div {
 .c9 {
     display: flex;
     justify-content: space-around;
+    gap: 30px;
+
+
 }
+.c9 .caja {
+    font-size: 9px;                
+    max-width: 100px;               
+    text-align: center;  
+}           
 
 .c10 {
     display: flex;
