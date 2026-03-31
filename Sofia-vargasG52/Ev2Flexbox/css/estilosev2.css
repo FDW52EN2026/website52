@@ -83,3 +83,9 @@ ul {
     font-size: 25PX;
     color: #795434;
 }
+
+.c3 {
+    display: flex;
+    flex-flow: row-reverse wrap;
+}
+
