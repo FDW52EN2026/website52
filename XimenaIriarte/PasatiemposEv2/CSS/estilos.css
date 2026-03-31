@@ -1,91 +1,152 @@
 header{
     border: double black 5px;
     background-color: bisque;
+    padding: 10px;
 }
+
 body{
     background-color: rgba(241, 230, 214, 0.877);
+    font-family: Arial, sans-serif;
+    margin: 0;
 }
+
+main{
+    padding: 20px;
+}
+
 article{
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 5px 5px 5px rgb(248, 176, 176);
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: lavenderblush;
 }
+
 article h3{
     color: rgb(0, 0, 0);
     background-color: rgb(248, 176, 176);
+    padding: 5px;
 }
+
 footer{
     background-color: rgb(248, 176, 176);
     border: double black 10px;
+    padding: 10px;
 }
-.colorFav{
-    color: rgb(78, 32, 121);
+
+.plataforma{
     font-weight: bold;
+    color: #e50914;
 }
-.postre {
+
+.postre{
     color: purple;
     font-weight: bold;
     font-style: italic;
 }
-.plataforma {
-    font-weight: bold;
-    color: #e50914;
-}
-.lugar {
-    color: #d35400;
-    font-weight: bold;
-}
 
-audio {
-    margin-top: 10px;
-}
-
-section {
-    margin-top: 20px;
-}
-.juego {
+.juego{
     color: #e84393;
     font-weight: bold;
 }
 
-mark {
+.lugar{
+    color: #d35400;
+    font-weight: bold;
+}
+
+audio{
+    margin-top: 10px;
+}
+
+section{
+    margin-top: 20px;
+}
+
+mark{
     background-color: #ffeaa7;
     padding: 2px 4px;
     border-radius: 4px;
 }
 
-figure {
-    margin-top: 20px;
+figure{
+    margin: 0;
     text-align: center;
 }
 
-figcaption {
+figcaption{
     font-size: 14px;
     color: #636e72;
     margin-top: 5px;
 }
 
-aside {
-    margin-top: 25px;
-    padding: 15px;
-    background-color: #dfe6e9;
-    border-left: 5px solid #6c5ce7;
-    border-radius: 8px;
+aside{
+    margin-top: 10px;
 }
 
 .contenedor{
     display: flex;
-    flex-direction: row;
     gap: 20px;
-    align-items: center;
     margin-top: 15px;
 }
 
+.direccion{
+    flex-direction: row;
+    align-items: center;
+}
+
+.centro{
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap{
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.explicacion{
+    justify-content: center;
+}
+
 .tarjeta{
-    width: 220px;
+    width: 300px;
     padding: 15px;
     border: 1px solid rgb(248, 176, 176);
     background-color: rgba(248, 176, 176, 0.2);
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(248, 176, 176);
+}
+
+.tarjeta img,
+.tarjeta iframe,
+.tarjeta video{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.codigo-css{
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f3dcdc;
+    border: 2px solid #f5abab;
+    border-radius: 10px;
+}
+
+.codigo-css h2{
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.codigo-css p{
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.codigo-css img{
+    display: block;
+    max-width: 100%;
+    border: 1px solid #666;
+    margin: auto;
 }
