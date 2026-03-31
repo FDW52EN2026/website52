@@ -59,6 +59,12 @@ img {
     justify-content: space-around;
 }
 
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 450px;
+}
+
 .caja:nth-child(even) {
     background-color:rgba(108, 73, 177, 0.54);
 }
