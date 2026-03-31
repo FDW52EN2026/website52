@@ -98,3 +98,10 @@ ul {
     width: 300px;
     height: 200px;
 }
+
+.c5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
