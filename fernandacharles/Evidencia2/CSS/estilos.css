@@ -53,6 +53,12 @@ img {
     justify-content:space-evenly ;
 }
 
+.c2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .caja:nth-child(even) {
     background-color:rgba(108, 73, 177, 0.54);
 }
