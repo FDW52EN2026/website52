@@ -73,3 +73,12 @@ border-radius:10px;
     height: 420px;
 }
 
+.c4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
