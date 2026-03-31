@@ -67,3 +67,9 @@ border-radius:10px;
     justify-content: space-around;
 }
 
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 420px;
+}
+
