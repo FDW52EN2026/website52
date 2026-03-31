@@ -1,0 +1,42 @@
+img {
+    width: 90px;
+}
+
+.c5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: whitesmoke;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: whitesmoke;
+}
+
+.c2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+}
+
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 150px;
+    background-color: whitesmoke;
+}
+
+.c4 { 
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+h2 {
+    background-color: whitesmoke;
+    letter-spacing: 20px;
+}
+

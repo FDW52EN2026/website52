@@ -6,8 +6,20 @@ h2 {
     
 }
 
+h2.ev2 {
+    background-color: rgba(188, 232, 243, 0.685);
+    color: rgba(55, 71, 87, 0.794);
+    padding: 5px;
+    
+}
+
 mark {
     background-color: rgba(179, 203, 166, 0.7);
+    padding: 2px 4px;
+}
+
+mark.ev2 {
+    background-color: rgba(166, 196, 203, 0.7);
     padding: 2px 4px;
 }
 

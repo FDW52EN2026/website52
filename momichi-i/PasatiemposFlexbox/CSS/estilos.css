@@ -1,5 +1,6 @@
 img {
-    width: 100px;
+    width: 200px;
+    margin-bottom: 20px;
 }
 
 * {
@@ -8,6 +9,13 @@ img {
 
 body {
     text-align: center;
+}
+
+hr {
+    width: 90%;
+    background-color: pink;
+    padding: 2px;
+    border: 2px solid black;
 }
 
 h1 {
@@ -26,7 +34,6 @@ h2 {
     display: inline-block;
     text-align: center;
     margin: 50px;
-    margin-top: 30px;
     border: 2px solid black;
     background-color: rgb(209, 248, 248);
     padding: 10px 50px;
@@ -41,7 +48,8 @@ h2 {
 }
 
 .caja {
-    border: 2px solid black;
+    border: 3px solid black;
+    border-radius: 20px;
     text-align: center;
     padding: 20px;
     padding-top: 10px;
@@ -65,4 +73,32 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.c2 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 380px;
+}
+
+.c3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c4 {
+    display: flex;
+    justify-content: space-between
+}
+
+.c5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+article.caja p {
+    font-size: larger;
 }
