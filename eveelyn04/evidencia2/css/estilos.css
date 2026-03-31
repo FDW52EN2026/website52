@@ -1,0 +1,89 @@
+
+body {
+    background-color: #d9e4d3;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 90px;
+    background-color: #354f52d7;
+    color: white;
+    border-radius: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    color: #314137d1;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: #84a98cd5;
+    color: rgb(255, 255, 255);
+}
+
+section {
+    border: 1px solid black;
+    box-shadow: -5px 5px 10px rgba(87, 135, 95, 0.786);
+    margin: 30px;
+    padding: 15px;
+    padding-top: 1%;
+    background-color: rgba(255, 255, 255, 0.729);
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img.contenedor {
+width:200px;
+height:200px;
+object-fit:cover;
+border-radius:10px;
+}
+
+.caja {
+    border: 3px solid #354f52;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.caja:nth-child(even) {
+    background-color: #e6eee1d3;
+}
+
+.caja:nth-child(odd) {
+    background-color: #cbd5c0;
+}
+
+.c2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 420px;
+}
+
+.c4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.c5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

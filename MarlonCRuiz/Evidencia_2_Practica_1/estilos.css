@@ -1,0 +1,243 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2, h3 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px 0 6px 0;
+}
+
+footer {
+    background-color: lightcyan;
+    margin: 10px;
+    border: double;
+    padding: 5px 10px;
+}
+
+footer address {
+    margin: 0;
+}
+
+footer p {
+    margin: 2px 0;
+    padding: 0;
+}
+
+p {
+    padding: 1%;
+}
+
+body {
+    color: black;
+    border: dotted black 10px;
+    background-color: cyan;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+
+main {
+    background-color: cyan;
+}
+
+main pre {  
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+ul {
+    margin: 10px 30px;
+}
+
+.bloque-lista {
+    margin: 18px 10px;
+    padding: 10px;
+    border-style: double;
+    background-color: lightcyan;
+}
+
+
+.demo-bloque {
+    margin: 18px 10px;
+    padding: 10px;
+    border-style: double;
+    background-color: lightcyan;
+}
+
+.contenedor-flex {
+    display: flex;
+    border: 2px dashed black;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(202, 252, 252);;
+    gap: 12px;
+    box-sizing: border-box;
+}
+
+.tarjeta {
+    border: 2px solid black;
+    background-color: lightcyan;
+    padding: 10px;
+    width: 220px;
+    box-sizing: border-box;
+}
+
+.tarjeta p {
+    text-align: center;
+    margin: 0;
+}
+
+.marco-imagen {
+    width: 100%;
+    height: 180px;
+    border: 2px solid black;
+    background-color: lightcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.marco-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+
+
+
+
+.fila-espaciada {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.envolver-juegos {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flujo-invertido {
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.centro-guitarra {
+    justify-content: center;
+    align-items: center;
+    min-height: 260px;
+}
+
+.estirar-fotos {
+    align-items: stretch;
+}
+
+.contenido-espaciado {
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    min-height: 520px;
+}
+
+.ejemplo-order {
+    justify-content: center;
+}
+
+.order-1 {
+    order: 1;
+}
+
+.order-2 {
+    order: 2;
+}
+
+.order-3 {
+    order: 3;
+}
+
+.ejemplo-grow {
+    justify-content: space-between;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.grow-3 {
+    flex-grow: 3;
+}
+
+.ejemplo-shrink {
+    width: 640px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: nowrap;
+}
+
+.shrink-0 {
+    flex-shrink: 0;
+}
+
+.shrink-1 {
+    flex-shrink: 1;
+}
+
+.shrink-2 {
+    flex-shrink: 2;
+}
+
+.basis-120 {
+    flex-basis: 120px;
+}
+
+.basis-220 {
+    flex-basis: 220px;
+}
+
+.basis-320 {
+    flex-basis: 320px;
+}
+
+.flex-corto {
+    flex: 1 1 150px;
+}
+
+.flex-largo {
+    flex: 2 1 250px;
+}
+
+.ejemplo-align-self {
+    min-height: 420px;
+    align-items: flex-start;
+}
+
+.self-start {
+    align-self: flex-start;
+}
+
+.self-center {
+    align-self: center;
+}
+
+.self-end {
+    align-self: flex-end;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
+

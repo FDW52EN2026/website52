@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Práctica 1 de Flexbox usando información de mis pasatiempos">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 - Flexbox</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<main>
+    <section class="bloque-lista">
+        <h1>Evidencia 2 Práctica 1:Crear una página web en la que se muestre el uso de todas las propiedades de Flexbox</h1>
+    </section>
+
+    <section class="bloque-lista">
+        <h2>Propiedades del contenedor</h2>
+        <p><strong>En los siguientes ejemplos se muestran:</strong></p>
+        <ul>
+            <li><strong>flex-direction</strong></li>
+            <li><strong>flex-wrap</strong></li>
+            <li><strong>flex-flow</strong></li>
+            <li><strong>justify-content</strong></li>
+            <li><strong>align-items</strong></li>
+            <li><strong>align-content</strong></li>
+        </ul>
+    </section>
+    <section class="demo-bloque">
+        <h3><pre>1) flex-direction: row + justify-content: space-between
+Pasatiempo: Musica</pre></h3>
+        <p>
+            En este ejemplo las tarjetas se acomodan en <strong>fila</strong> y se reparte el espacio entre ellas.
+        </p>
+        <div class="contenedor-flex fila-espaciada">
+            <article class="tarjeta">
+                <div class="marco-imagen"><img src="imagenes/dfa1979.jpg" alt="Death From Above 1979 - You're a Woman, I'm a Machine"></div>
+                <h4>Death From Above 1979</h4>
+                <p>El álbum <cite>You're a Woman, I'm a Machine</cite> me gusta por su energía y sonido agresivo.</p>
+            </article>
+            <article class="tarjeta">
+                <div class="marco-imagen"><img src="imagenes/soad_toxicity.jpg" alt="System of a Down - Toxicity"></div>
+                <h4>System of a Down</h4>
+                <p><cite>Toxicity</cite> es uno de mis discos favoritos por la mezcla de intensidad y melodía.</p>
+            </article>
+            <article class="tarjeta">
+                <div class="marco-imagen"><img src="imagenes/the_faint.jpg" alt="The Faint - Danse Macabre"></div>
+                <h4>The Faint</h4>
+                <p><cite>Danse Macabre</cite> destaca por su estilo electrónico y alternativo.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3><pre>2) flex-wrap: wrap
+Pasatiempo: Videojuegos</pre></h3>
+        <p>
+            Aquí el contenedor permite que los elementos <strong>salten a otra línea</strong> cuando ya no caben.
+            Esto es útil cuando hay varios videojuegos favoritos en un mismo espacio.
+        </p>
+        <div class="contenedor-flex envolver-juegos">
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/clone_hero.png" alt="Clone Hero"></div>
+                <h4>Clone Hero</h4>
+                <p>Juego musical parecido al guitar hero.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/nfsud2.jpg" alt="Need for Speed Underground 2"></div>
+                <h4>Need for Speed Underground 2</h4>
+                <p>Me gusta por la personalización de autos y su soundtrack.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/worms_armageddon.jpg" alt="Worms Armageddon"></div>
+                <h4>Worms Armageddon</h4>
+                <p>Lo disfruto por su humor y su estrategia por turnos.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/ssb64.png" alt="Super Smash Bros. 64"></div>
+                <h4>Super Smash Bros. 64</h4>
+                <p>Especial por la nostalgia y las partidas con amigos.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/hillclimb.webp" alt="Hill Climb Racing"></div>
+                <h4>Hill Climb Racing</h4>
+                <p>Juego sencillo que resulta entretenido y relajante.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/nonogram.png" alt="Nonogram"></div>
+                <h4>Nonogram</h4>
+                <p>Me gusta porque pone a prueba la lógica y la paciencia.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3><pre>3) flex-flow: row-reverse wrap
+Pasatiempo: Coleccionar Consolas y Dispositivos Portátiles</pre></h3>
+        <p>
+            Esta propiedad combina <strong>flex-direction</strong> y <strong>flex-wrap</strong>.
+            En este caso los elementos se acomodan en sentido inverso y además pueden envolver.
+        </p>
+        <div class="contenedor-flex flujo-invertido">
+            <article class="tarjeta mediana">
+                <div class="marco-imagen"><img src="imagenes/nswitch.jpg" alt="Nintendo Switch 1 y 2"></div>
+                <h4>Nintendo Switch 1 y 2</h4>
+                <p>Me gustan por su versatilidad y catálogo de juegos.</p>
+            </article>
+            <article class="tarjeta mediana">
+                <div class="marco-imagen"><img src="imagenes/gpdmicropc.jpg" alt="GPD Micro PC"></div>
+                <h4>GPD Micro PC</h4>
+                <p>Me ha servido como equipo pequeño para tareas y uso portátil.</p>
+            </article>
+            <article class="tarjeta mediana">
+                <div class="marco-imagen"><img src="imagenes/gpdplus.jpg" alt="GPD XD Plus"></div>
+                <h4>GPD XD Plus</h4>
+                <p>Dispositivo interesante para juegos y emulación.</p>
+            </article>
+            <article class="tarjeta mediana">
+                <div class="marco-imagen"><img src="imagenes/ndsi.jpg" alt="Nintendo DSi"></div>
+                <h4>Nintendo DSi</h4>
+                <p>Es una consola portátil clásica que me sigue gustando bastante.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3><pre>4) justify-content: center + align-items: center
+Pasatiempo: Tocar Guitarra</pre></h3>
+        <p>
+            El contenido se centra de forma horizontal y vertical. Aquí uso objetos relacionados con tocar guitarra.
+        </p>
+        <div class="contenedor-flex centro-guitarra">
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/guitar.png" alt="Yo tocando guitarra"></div>
+                <h4>Yo tocando guitarra</h4>
+                <p>La guitarra es uno de mis pasatiempos favoritos.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/pedales.jpg" alt="Pedales de guitarra"></div>
+                <h4>Pedales</h4>
+                <p>Uso efectos para experimentar con diferentes sonidos.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/pua.jpg" alt="Púa de guitarra"></div>
+                <h4>Púa</h4>
+                <p>Es un accesorio pequeño, pero muy importante al tocar.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3><pre>5) align-items: stretch
+Pasatiempo: Tomar Fotos</pre></h3>
+        <p>
+            Con <strong>stretch</strong> las tarjetas toman una altura semejante aunque el texto sea diferente.
+            Aquí se muestran algunas fotografías que tomé en distintos lugares.
+        </p>
+        <div class="contenedor-flex estirar-fotos">
+            <article class="tarjeta variable">
+                <div class="marco-imagen"><img src="imagenes/WP_20160325_13_41_24_Pro.jpg" alt="Foto tomada en Matamoros, Tamaulipas"></div>
+                <h4>Matamoros, Tamaulipas</h4>
+                <p>Fotografía tomada durante una salida. Me gusta por la composición del camino y el cielo.</p>
+            </article>
+            <article class="tarjeta variable">
+                <div class="marco-imagen"><img src="imagenes/WP_20160603_19_15_46_Pro.jpg" alt="Foto tomada en San Nicolás de los Garza, Nuevo León"></div>
+                <h4>San Nicolás de los Garza</h4>
+                <p>Esta imagen me gusta por la iluminación y el ambiente del lugar.</p>
+            </article>
+            <article class="tarjeta variable">
+                <div class="marco-imagen"><img src="imagenes/Sight_2018_04_20_192812_148.jpg" alt="Foto de Parque Fundidora"></div>
+                <h4>Parque Fundidora</h4>
+                <p>Una de mis fotos favoritas por el encuadre, el color del cielo y el reflejo del agua.</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3><pre>6) align-content: space-between
+Pasatiempo: Tomar Fotos</pre></h3>
+        <p>
+            Esta propiedad se nota cuando hay <strong>varias filas</strong> dentro de un contenedor con wrap.
+            Las filas se distribuyen a lo largo del alto disponible.
+        </p>
+        <div class="contenedor-flex contenido-espaciado">
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/Sight_2016_11_14_210525_227.jpg" alt="Foto de luna entre las nubes"></div>
+                <h4>Luna entre las nubes</h4>
+                <p>Me gustó la atmósfera nocturna.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/IMG_20220818_073136.jpg" alt="Foto de mi gato"></div>
+                <h4>Mi gato</h4>
+                <p>La combinación del pelaje con la pared se veía interesante.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/IMG_20221001_222455.jpg" alt="Foto de la estación General Anaya"></div>
+                <h4>Metro General Anaya</h4>
+                <p>Me gustó por su perspectiva y líneas.</p>
+            </article>
+            <article class="tarjeta chica">
+                <div class="marco-imagen"><img src="imagenes/IMG_20230916_194739.jpg" alt="Foto de bolas de billar"></div>
+                <h4>Bolas de billar</h4>
+                <p>La composición se ve más ordenada visualmente.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="elementos" class="bloque-lista">
+        <h2>Propiedades de los elementos flexibles</h2>
+        <ul>
+            <li><strong>order</strong></li>
+            <li><strong>flex-grow</strong></li>
+            <li><strong>flex-shrink</strong></li>
+            <li><strong>flex-basis</strong></li>
+            <li><strong>flex</strong></li>
+            <li><strong>align-self</strong></li>
+        </ul>
+    </section>
+
+    <section class="demo-bloque">
+        <h3>7) order</h3>
+        <p>
+            Aunque las tarjetas están escritas en otro orden dentro del HTML, visualmente cambian de posición.
+            Aquí se ve claramente que la <strong>Fender Stratocaster Squier</strong> queda al final porque tiene <strong>order: 3</strong>.
+        </p>
+        <div class="contenedor-flex ejemplo-order">
+            <article class="tarjeta order-2">
+                <div class="marco-imagen"><img src="imagenes/guitar.png" alt="Yo tocando guitarra"></div>
+                <h4>Yo tocando guitarra</h4>
+                <p>order: 2</p>
+            </article>
+            <article class="tarjeta order-3">
+                <div class="marco-imagen"><img src="imagenes/guitarra1.jpg" alt="Fender Stratocaster Squier"></div>
+                <h4>Fender Stratocaster Squier</h4>
+                <p>order: 3</p>
+            </article>
+            <article class="tarjeta order-1">
+                <div class="marco-imagen"><img src="imagenes/guitarra2.jpg" alt="Cort X100"></div>
+                <h4>Cort X100</h4>
+                <p>order: 1</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3>8) flex-grow</h3>
+        <p>
+            La tarjeta central crece más que las demás cuando sobra espacio.
+            Esto permite dar más importancia visual a un elemento.
+        </p>
+        <div class="contenedor-flex ejemplo-grow">
+            <article class="tarjeta grow-1">
+                <div class="marco-imagen"><img src="imagenes/ndsi.jpg" alt="Nintendo DSi"></div>
+                <h4>Nintendo DSi</h4>
+                <p>flex-grow: 1</p>
+            </article>
+            <article class="tarjeta grow-3">
+                <div class="marco-imagen"><img src="imagenes/gpdmicropc.jpg" alt="GPD Micro PC"></div>
+                <h4>GPD Micro PC</h4>
+                <p>flex-grow: 3</p>
+            </article>
+            <article class="tarjeta grow-1">
+                <div class="marco-imagen"><img src="imagenes/nswitch.jpg" alt="Nintendo Switch 1 y 2"></div>
+                <h4>Nintendo Switch</h4>
+                <p>flex-grow: 1</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3>9) flex-shrink</h3>
+        <p>
+            En un contenedor angosto algunos elementos se encogen más que otros.
+            Aquí se comparan tres portadas musicales con valores distintos.
+        </p>
+        <div class="contenedor-flex ejemplo-shrink">
+            <article class="tarjeta shrink-0">
+                <div class="marco-imagen"><img src="imagenes/a7x_life.jpg" alt="Avenged Sevenfold - Life Is But a Dream"></div>
+                <h4>Avenged Sevenfold</h4>
+                <p>flex-shrink: 0</p>
+            </article>
+            <article class="tarjeta shrink-1">
+                <div class="marco-imagen"><img src="imagenes/the_rakes.png" alt="The Rakes - Capture Release"></div>
+                <h4>The Rakes</h4>
+                <p>flex-shrink: 1</p>
+            </article>
+            <article class="tarjeta shrink-2">
+                <div class="marco-imagen"><img src="imagenes/the_faint.jpg" alt="The Faint - Danse Macabre"></div>
+                <h4>The Faint</h4>
+                <p>flex-shrink: 2</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3>10) flex-basis</h3>
+        <p>
+            <strong>flex-basis</strong> define el tamaño inicial que tendrá cada elemento antes de repartir el espacio restante.
+        </p>
+        <div class="contenedor-flex ejemplo-basis">
+            <article class="tarjeta basis-120">
+                <div class="marco-imagen"><img src="imagenes/clone_hero.png" alt="Clone Hero"></div>
+                <h4>Clone Hero</h4>
+                <p>flex-basis: 120px</p>
+            </article>
+            <article class="tarjeta basis-220">
+                <div class="marco-imagen"><img src="imagenes/worms_armageddon.jpg" alt="Worms Armageddon"></div>
+                <h4>Worms Armageddon</h4>
+                <p>flex-basis: 220px</p>
+            </article>
+            <article class="tarjeta basis-320">
+                <div class="marco-imagen"><img src="imagenes/nfsud2.jpg" alt="Need for Speed Underground 2"></div>
+                <h4>Need for Speed Underground 2</h4>
+                <p>flex-basis: 320px</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3>11) flex</h3>
+        <p>
+            La propiedad abreviada <strong>flex</strong> combina <strong>flex-grow</strong>, <strong>flex-shrink</strong> y <strong>flex-basis</strong>.
+        </p>
+        <div class="contenedor-flex ejemplo-flex">
+            <article class="tarjeta flex-corto">
+                <div class="marco-imagen"><img src="imagenes/gato_amp.jpg" alt="Gato arriba de amplificador Fender Champion 100"></div>
+                <h4>Gato y amplificador</h4>
+                <p>flex: 1 1 150px</p>
+            </article>
+            <article class="tarjeta flex-largo">
+                <div class="marco-imagen"><img src="imagenes/pedales.jpg" alt="Pedales Zoom G1x Four y Cruzer by Crafter"></div>
+                <h4>Pedales de guitarra</h4>
+                <p>flex: 2 1 250px</p>
+            </article>
+            <article class="tarjeta flex-corto">
+                <div class="marco-imagen"><img src="imagenes/pua.jpg" alt="Púa de guitarra"></div>
+                <h4>Púa</h4>
+                <p>flex: 1 1 150px</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="demo-bloque">
+        <h3>12) align-self</h3>
+        <p>
+            Cada elemento puede alinearse de forma individual dentro del mismo contenedor.
+            En este ejemplo se usan distintos valores para comparar su posición.
+        </p>
+        <div class="contenedor-flex ejemplo-align-self">
+            <article class="tarjeta self-start">
+                <div class="marco-imagen"><img src="imagenes/Sight_2016_11_14_210525_227.jpg" alt="Luna entre las nubes"></div>
+                <h4>Luna</h4>
+                <p>align-self: flex-start</p>
+            </article>
+            <article class="tarjeta self-center">
+                <div class="marco-imagen"><img src="imagenes/IMG_20230916_194739.jpg" alt="Bolas de billar"></div>
+                <h4>Bolas de billar</h4>
+                <p>align-self: center</p>
+            </article>
+            <article class="tarjeta self-end">
+                <div class="marco-imagen"><img src="imagenes/IMG_20221001_222455.jpg" alt="Estación del metro General Anaya"></div>
+                <h4>General Anaya</h4>
+                <p>align-self: flex-end</p>
+            </article>
+            <article class="tarjeta self-stretch">
+                <div class="marco-imagen"><img src="imagenes/IMG_20220818_073136.jpg" alt="Foto de mi gato"></div>
+                <h4>Mi gato</h4>
+                <p>align-self: stretch</p>
+            </article>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>Derechos reservados <small>© 2026</small></p>
+    <p>Desarrollado por: <small>♥ MCRV</small></p>
+    <figure>
+        <figcaption>
+            <pre>
+           x
+.-. _______|
+|=|/     /  \
+| |_____|_""_|
+|_|_[X]_|____|
+            </pre>
+</figcaption>
+    </figure>
+</footer>
+
+</body>
+</html>

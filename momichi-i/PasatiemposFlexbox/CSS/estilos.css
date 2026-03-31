@@ -1,0 +1,104 @@
+img {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+hr {
+    width: 90%;
+    background-color: pink;
+    padding: 2px;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+    background-color: pink;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    padding: 10px 50px;
+
+}
+
+h2 {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+    border: 2px solid black;
+    background-color: rgb(209, 248, 248);
+    padding: 10px 50px;
+    border-radius: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 3px;
+}
+
+.info {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.caja {
+    border: 3px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.caja:nth-child(odd) {
+    background-color: rgb(253, 221, 226);
+}
+
+.caja:nth-child(even) {
+    background-color: rgb(250, 250, 204);
+}
+
+.exp {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.c2 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 380px;
+}
+
+.c3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.c4 {
+    display: flex;
+    justify-content: space-between
+}
+
+.c5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+}
+
+article.caja p {
+    font-size: larger;
+}
