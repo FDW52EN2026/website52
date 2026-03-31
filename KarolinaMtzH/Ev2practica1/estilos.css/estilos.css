@@ -1,0 +1,43 @@
+.caja {
+    width: 250px;
+    text-align: center;
+    border: 1px solid black;
+    background-color: lavender;
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.c1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 450px;
+}
+
+.c2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+   
+}
+
+.c3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    flex-direction:row;
+}
+
+.c4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    height: 450px;
+}
