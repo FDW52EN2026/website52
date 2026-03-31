@@ -3,11 +3,32 @@
 }
 
 img {
-    width: 150px;
+    width: 170px;
+    height: 150px;
     margin-bottom: 20px;
 }
 
 #img-c1 {
+  width: 400px;   
+  height: auto;  
+}
+
+#img-c2 {
+  width: 400px;   
+  height: auto;  
+}
+
+#img-c3 {
+  width: 400px;   
+  height: auto;  
+}
+
+#img-c4 {
+  width: 400px;   
+  height: auto;  
+}
+
+#img-c5 {
   width: 400px;   
   height: auto;  
 }
