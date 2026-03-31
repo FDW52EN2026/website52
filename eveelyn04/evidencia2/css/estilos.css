@@ -60,3 +60,10 @@ border-radius:10px;
 .caja:nth-child(odd) {
     background-color: #cbd5c0;
 }
+
+.c2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
