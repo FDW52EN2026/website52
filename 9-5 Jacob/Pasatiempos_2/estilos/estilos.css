@@ -1,17 +1,119 @@
-body{
-    background-color:#ffffff;
-    color: #415f7d;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0%;
+body {
+   background-color: #dbf0dd;
+   font-family: Verdana;
+   padding:10px;
+   font-size: 14px;
+   zoom: 1.25;
+}
+
+header {
+   color:#5a8a6a;
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+.tarjeta {
+  background-color: #8cb79b;
+  border-radius: 16px;
+  padding: 16px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  font-family: verdana;
+}
+
+.tarjeta img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.tarjeta h3 {
+  color: #235347;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tarjeta p {
+  color: #235347;
+  text-align: justify;
+  font-size: 14px;
+  word-break: break-word;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #5a8a6a; 
+  margin: 20px 0;
+  width: 100%;
+}
+
+.titulo {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #235347;
+  margin: 20px 0;
+  font-family: Verdana;
 }
 
 
-nav{
-    background-color:gray;
-    padding: 2px;
-    }
+.contenedor2 {
+  display: flex;
+  flex-direction: row;      
+  flex-wrap: nowrap;
+  flex-flow: column nowrap;    
+  justify-content: flex-start;  
+  align-items: center;          
+  align-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 
-nav a{
-    padding: 10px;
-    color: aqua;
-    }
+.contenedor2 .tarjeta {
+  order: 0;
+  flex-grow: 0;
+  flex-shrink: 1;
+  flex-basis: auto;
+  flex: 0 1 auto;
+  align-self: center;
+  width: 400px;
+  word-break: break-word;           
+}
+
+.contenedor2 img {
+    width: 200px;
+}
+
+.contenedor3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  align-content: flex-start;
+  background-color: #2d4a3e;
+  gap: 20px;
+  padding: 20px;
+}
+
+.contenedor3 .tarjeta {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 200px;
+  flex: 1 1 200px;
+  align-self: stretch;
+}
+
+.contenedor3 img {
+    width: 30%;
+}
