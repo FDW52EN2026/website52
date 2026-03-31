@@ -1,0 +1,51 @@
+.lista1 {
+    display: flex; 
+    flex-flow: row wrap; 
+    align-content: space-between; 
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #141414; 
+    min-height: 600px;
+}
+
+.cuadros {
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s;    
+    flex-basis: 200px;  
+    flex-grow: 1; 
+}
+
+.cuadros:hover {
+    transform: scale(1.05); 
+}
+
+.idprincipal {
+    flex-shrink: 0; 
+    border: 2px solid #e50914;
+}
+
+.cuadros img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover; 
+    display: block;
+}
+
+.info {
+    padding: 15px;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.info p {
+     color: #aaa;
+    font-size: 0.9rem;
+}
