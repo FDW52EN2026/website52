@@ -91,3 +91,13 @@
     margin-top: 30px;
     align-items: center;
 }
+
+
+.c3{
+    display: flex;
+    flex-flow: column wrap;
+    height: 50px;
+    width: auto;
+    margin: 20px;
+    align-items: center;
+}
