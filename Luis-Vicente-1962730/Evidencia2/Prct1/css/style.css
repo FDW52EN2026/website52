@@ -1,0 +1,112 @@
+body{
+    background-color: #FFF8D4;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+h1{
+    background-color: #435663;
+    color: #FFF8D4;
+    text-align: center;
+    border: #313647 solid;
+    margin: 30px 0px 10px 0px;
+    letter-spacing: 3px;
+}
+
+p{
+    text-align: center;
+    font-weight: 600;
+    color: #313647;
+}
+
+h2{
+    text-align: center;
+    background-color: #A3B087;
+    color:#313647;
+    text-align: center;
+    border: #313647 solid;
+    border-radius: 10px;
+    margin: 10px 38% 20px 38%;
+    letter-spacing: 3px;    
+}
+
+hr{
+    border: #313647 solid;
+    width: 25%;
+}
+
+img.flecha{
+    width: 2%;
+    height: 2%;
+    display: block;
+    margin: 0 auto;
+} 
+
+.caja{
+    border: #313647 solid 5px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 10px;
+    width:  230px;
+}
+
+.caja img{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.div1{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+}
+
+.div4{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div5{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #313647;
+    font-weight: 600;
+}
+
+b{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #313647;
+}
+
+.code{
+    display: block;     
+    margin: 0 auto;
+    border-radius: 5px;  
+    margin-bottom: 10px;   
+}
