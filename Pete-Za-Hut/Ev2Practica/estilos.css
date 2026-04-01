@@ -120,6 +120,12 @@ h3 {
     justify-content: space-evenly;
 }
 
+.c2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 
 article.caja p {
