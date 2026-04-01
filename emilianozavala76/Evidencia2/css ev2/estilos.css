@@ -22,6 +22,11 @@ body {
     display: flex;
     justify-content: space-between;
 }
+
+.c5 {
+    display: flex;
+    justify-content: center;
+}
 .caja {
     border: 5px solid black;
     border-radius: 20px;
