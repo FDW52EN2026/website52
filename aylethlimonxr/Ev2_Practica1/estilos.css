@@ -33,6 +33,12 @@ p {
     width: 500px;
 }
 
+.c3 .caja {
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 250px;
+}
 
 .c1 {
     display: flex;
@@ -47,3 +53,8 @@ p {
     justify-content: space-between;
 }
 
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
