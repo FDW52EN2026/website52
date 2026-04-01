@@ -95,9 +95,11 @@
 
 .c3{
     display: flex;
-    flex-flow: column wrap;
-    height: 50px;
+    flex-flow: row wrap;
     width: auto;
-    margin: 20px;
+    margin: 30px;
     align-items: center;
+    justify-content: center;
+
 }
+
