@@ -133,6 +133,13 @@ h3 {
     height: 380px;
 }
 
+.c4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
 
 
 article.caja p {
