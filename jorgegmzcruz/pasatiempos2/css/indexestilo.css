@@ -23,10 +23,13 @@
 }
 
 h1 {
-    background-color: rgba(169, 118, 36, 0.615);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-* {
-   background-color: blanchedalmond;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 30px;
+    color: #222;
 }
