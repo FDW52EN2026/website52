@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 - Flexbox</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <section class="bloque" id="direction">
+            <h2>Ejemplo 1: flex-direction</h2>
+            <p>
+                En este ejemplo acomode a dos de mis cantantes favoritos en una fila.
+                Aquí use <strong>flex-direction: row</strong> para que los elementos se vean uno al lado del otro.
+            </p>
+
+            <div class="contenedor ejemplo-direction">
+                <article class="tarjeta">
+                    <h3>Rauw Alejandro</h3>
+                    <img src="imagenes/rauw.jpeg" alt="Rauw Alejandro" class="imagen-pasatiempo">
+                    <p>Es uno de mis cantantes favoritos porque disfruto mucho su música y me gusta escucharla en mi tiempo libre.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Harry Styles</h3>
+                    <img src="imagenes/harry.jpg" alt="Harry Styles" class="imagen-pasatiempo">
+                    <p>También me gusta mucho porque su música me da una vibra diferente y eso hace que me entusiasme más.</p>
+                </article>
+            </div>
+
+            <h3>Código CSS del contenedor</h3>
+            <pre><code>.ejemplo-direction{
+    display: flex;
+    flex-direction: row;
+}</code></pre>
+        </section>
+
+        <section class="bloque" id="wrap">
+            <h2>Ejemplo 2: flex-wrap</h2>
+            <p>
+                Aquí use series y películas que me gustan. En este caso puse
+                <strong>flex-wrap: wrap</strong> para que si los elementos ya no caben en una sola línea,
+                se acomoden hacia abajo.
+            </p>
+
+            <div class="contenedor ejemplo-wrap">
+                <article class="tarjeta">
+                    <h3>The Summer I Turned Pretty</h3>
+                    <img src="imagenes/summer.webp" alt="The Summer I Turned Pretty" class="imagen-pasatiempo">
+                    <p>Es mi serie favorita porque conecte más con ella y me envolvió mucho su trama.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Stranger Things</h3>
+                    <img src="imagenes/stranger.webp" alt="Stranger Things" class="imagen-pasatiempo">
+                    <p>Me gusta mucho porque la empece a ver en pandemia junto a mi papá y me intrigo desde el inicio.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Harry Potter</h3>
+                    <img src="imagenes/harry.jpg" alt="Harry Potter" class="imagen-pasatiempo">
+                    <p>Es una de mis películas favoritas y siempre se me hace entretenida de ver.</p>
+                </article>
+
+                <article class="tarjeta placeholder-card">
+                    <h3>Cars</h3>
+                    <img src="imagenes/cars.png" alt="Cars" class="imagen-pasatiempo">
+                    <p>También es una película que me gusta mucho y por eso la agregue en esta parte.</p>
+                </article>
+            </div>
+
+            <h3>Código CSS del contenedor</h3>
+            <pre><code>.ejemplo-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}</code></pre>
+        </section>
+
+        <section class="bloque" id="justify">
+            <h2>Ejemplo 3: justify-content</h2>
+            <p>
+                En este ejemplo use dos de mis videojuegos favoritos.
+                Aquí aplique <strong>justify-content: space-evenly</strong> para que el espacio se repartiera
+                de forma más pareja entre los elementos.
+            </p>
+
+            <div class="contenedor ejemplo-justify">
+                <article class="tarjeta">
+                    <h3>Call of Duty: Black Ops II</h3>
+                    <img src="imagenes/COD.png" alt="Call of Duty Black Ops II" class="imagen-pasatiempo">
+                    <p>Este es mi videojuego favorito porque desde chiquita lo jugaba con mis hermanos y me trae buenos recuerdos.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Roblox</h3>
+                    <img src="imagenes/roblox.jpg" alt="Roblox" class="imagen-pasatiempo">
+                    <p>Me gusta porque me entretiene mucho y también convivo con amigos mientras jugamos.</p>
+                </article>
+            </div>
+
+            <h3>Código CSS del contenedor</h3>
+            <pre><code>.ejemplo-justify{
+    display: flex;
+    justify-content: space-evenly;
+}</code></pre>
+        </section>
+
+        <section class="bloque" id="align">
+            <h2>Ejemplo 4: align-items</h2>
+            <p>
+                En esta parte use lugares a los que disfruto ir. Aquí use
+                <strong>align-items: center</strong> para que los elementos se alinearan al centro
+                dentro del contenedor.
+            </p>
+
+            <div class="contenedor ejemplo-align">
+                <article class="tarjeta tarjeta-baja">
+                    <h3>Cine</h3>
+                    <img src="imagenes/cine.webp" alt="Cine" class="imagen-pasatiempo">
+                    <p>Este lugar es mi preferido porque siento que me desconecto mucho de mi alrededor.</p>
+                </article>
+
+                <article class="tarjeta tarjeta-alta">
+                    <h3>Restaurantes</h3>
+                    <img src="imagenes/restaurantes.jpeg" alt="Restaurantes" class="imagen-pasatiempo">
+                    <p>
+                        Este lugar me gusta mucho por la convivencia que se forma con las otras personas,
+                        normalmente voy con familiares y me gusta pasar un buen rato en familia con tranquilidad.
+                    </p>
+                </article>
+            </div>
+
+            <h3>Código CSS del contenedor</h3>
+            <pre><code>.ejemplo-align{
+    display: flex;
+    align-items: center;
+}</code></pre>
+
+    </main>
+
+<footer>
+    <address>
+        <p>Derechos reservados &copy; 2026</p>
+        <p>Desarrollado por: EDTM</p>
+    </address>
+</footer>
+</body>
+</html>

@@ -1,0 +1,148 @@
+body {
+    font-style: italic;
+    background-color: lightpink;
+    border: groove 20px;
+    margin: 30px;
+    color: #2b1a21;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+header {
+    background-color: rgb(250, 202, 209);
+    border: 3px solid #6d4150;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    font-style: normal;
+    background-color: rgb(250, 202, 209);
+    margin-top: 15px;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4a2432;
+    background-color: #ffe7ec;
+    border: 2px solid #6d4150;
+    padding: 8px 14px;
+    margin: 6px;
+}
+
+main {
+    margin-top: 25px;
+}
+
+.bloque {
+    background-color: #fff3f6;
+    border: 3px solid #6d4150;
+    padding: 18px;
+    margin-bottom: 25px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    font-style: normal;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+ul {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.contenedor {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 2px dashed #9b6578;
+    background-color: #ffdbe4;
+    padding: 14px;
+}
+
+.tarjeta {
+    width: 250px;
+    background-color: white;
+    border: 2px solid #6d4150;
+    padding: 12px;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.imagen-pasatiempo,
+.placeholder {
+    width: 220px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #6d4150;
+    box-sizing: border-box;
+}
+
+.imagen-pasatiempo {
+    object-fit: cover;
+    background-color: #f7d3db;
+}
+
+.placeholder {
+    background-color: #fbe8ee;
+    color: #6d4150;
+    line-height: 146px;
+    font-style: normal;
+}
+
+.ejemplo-direction {
+    flex-direction: row;
+}
+
+.ejemplo-wrap {
+    flex-wrap: wrap;
+}
+
+.ejemplo-justify {
+    justify-content: space-evenly;
+}
+
+.ejemplo-align {
+    align-items: center;
+    min-height: 360px;
+}
+
+.tarjeta-baja {
+    min-height: 290px;
+}
+
+.tarjeta-alta {
+    min-height: 360px;
+}
+
+pre {
+    background-color: #2b2230;
+    color: #ffe7ec;
+    border: 2px solid #6d4150;
+    padding: 14px;
+    overflow-x: auto;
+    font-style: normal;
+}
+
+.aviso {
+    background-color: #ffe7ec;
+    border: 2px dashed #6d4150;
+    padding: 16px;
+    text-align: center;
+    font-style: normal;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(250, 202, 209);
+    border: 3px solid #6d4150;
+    padding: 15px;
+    font-style: normal;
+}
