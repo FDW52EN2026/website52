@@ -16,7 +16,7 @@
 .gym {
     display: flex;
     flex-direction: row; 
-    justify-content: space-between  ; 
+    justify-content: space-between ; 
     border: 2px solid rgba(169, 118, 36, 0.615);
     background-color: beige;
     padding: 30px;
