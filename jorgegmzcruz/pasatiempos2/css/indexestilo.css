@@ -1,0 +1,32 @@
+.foto_gym {
+    border: 1em double rgb(107, 56, 38);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.foto_gym img {
+    width: 100%; 
+    max-width: 350px;
+    max-height: 500px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+.gym {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between  ; 
+    border: 2px solid rgba(169, 118, 36, 0.615);
+    background-color: beige;
+    padding: 30px;
+}
+
+h1 {
+    background-color: rgba(169, 118, 36, 0.615);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+* {
+   background-color: blanchedalmond;
+}
