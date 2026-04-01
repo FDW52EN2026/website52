@@ -3,7 +3,256 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>Ev2-Practica 1</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Página de mis pasatiempos usando Flexbox</h1>
+    </header>
+    <main>
+      <section class="seccion-pasatiempo">
+        <h2>Mis pasatiempos</h2>
+        <p>
+          Jugar videojuegos ha sido uno de mis pasatiempos favoritos desde la
+          infancia. Por ello, cuando busco distraerme, suelo recurrir a ellos
+          para despejar la mente. También disfruto hacer ejercicio y escuchar
+          música, actividades que hoy forman parte de mi día a día.
+        </p>
+        <div class="flex-around">
+          <article class="caja">
+            <h3>Jugar videojuegos</h3>
+            <p>
+              Es una de las mejores formas que tengo para desconectarme de la
+              rutina y divertirme un rato.
+            </p>
+            <img
+              src="img/videojuegos.jpg"
+              alt="Control de videojuegos sobre una mesa"
+            />
+          </article>
+          <article class="caja">
+            <h3>Hacer ejercicio</h3>
+            <p>
+              Más que un pasatiempo, es una herramienta para despejar mi mente y
+              tener un tiempo de calidad conmigo mismo.
+            </p>
+            <img src="img/ejercicio.jpg" alt="Mancuernas en un gimnasio" />
+          </article>
+        </div>
+        <h2>Css utilizado</h2>
+        <img
+          class="codigo"
+          src="img/space-around.png"
+          alt="imagen de coidgo css"
+        />
+        <div class="flex-columna">
+          <article class="caja">
+            <h3>Escuchar música</h3>
+            <p>
+              Disfruto conectar mi bocina y escuchar diversos géneros musicales,
+              dependiendo totalmente de mi estado de ánimo.
+            </p>
+            <img
+              src="img/escuchar_musica.jpg"
+              alt="Audífonos profesionales de diadema"
+            />
+          </article>
+        </div>
+        <h2>Css utilizado</h2>
+        <img
+          class="codigo"
+          src="img/flex-columna.png"
+          alt="imagen de coidgo css"
+        />
+      </section>
+      <hr />
+      <section class="seccion-pasatiempo">
+        <h2>Jugar videojuegos</h2>
+        <p>
+          Esta actividad ha sido fundamental en mi vida. Al crecer como foráneo
+          y ser una persona reservada, los videojuegos multijugador me brindaron
+          la oportunidad de socializar y entablar amistades sólidas desde la
+          comodidad de mi hogar.
+        </p>
+        <h3>Videojuegos que más he jugado</h3>
+        <div class="flex-centro">
+          <article class="caja">
+            <h4>Call of Duty: Multijugador</h4>
+            <p>
+              Me apasiona la competencia y el proceso de mejorar mi nivel
+              táctico. Disfruto probar diferentes armas y compartir partidas
+              rápidas con amigos.
+            </p>
+            <img src="img/cod.jpg" alt="Escena de acción de Call of Duty" />
+          </article>
+          <article class="caja">
+            <h4>Call of Duty: Zombies</h4>
+            <p>
+              Valoro mucho el enfoque cooperativo de este modo. La estrategia y
+              el trabajo en equipo necesarios para sobrevivir son lo que lo hace
+              tan intenso y divertido.
+            </p>
+            <img src="img/zombies.jpg" alt="Modo zombies de Call of Duty" />
+          </article>
+        </div>
+        <h2>Css utilizado</h2>
+        <img
+          class="codigo"
+          src="img/flex-centro.png"
+          alt="imagen de coidgo css"
+        />
+
+        <div class="flex-evenly">
+          <article class="caja">
+            <h4>Minecraft</h4>
+            <p>
+              Es el espacio perfecto para la creatividad. Me permite explorar,
+              construir y enfrentar retos a mi propio ritmo, ya sea en modo
+              supervivencia o creativo.
+            </p>
+            <img src="img/minecraft.jpg" alt="Paisaje cúbico de Minecraft" />
+          </article>
+          <article class="caja">
+            <h4>Assassin's Creed</h4>
+            <p>
+              Me fascina la forma en que mezcla la historia real con la ficción.
+              Su estilo de juego basado en el sigilo y la exploración histórica
+              es de mis favoritos.
+            </p>
+            <img
+              src="img/Assassin's_Creed.jpg"
+              alt="Logo de la saga Assassin's Creed"
+            />
+          </article>
+        </div>
+        <h2>Css utilizado</h2>
+        <img
+          class="codigo"
+          src="img/flex-evenly.png"
+          alt="imagen de coidgo css"
+        />
+      </section>
+
+      <hr />
+
+      <section class="seccion-pasatiempo">
+        <h2>Hacer ejercicio</h2>
+        <p>
+          Mi camino en el deporte inició en la primaria con el Taekwondo. Años
+          después, antes de entrar a la preparatoria, descubrí el gimnasio y la
+          halterofilia, una disciplina técnica que capturó mi interés por el
+          control y la fuerza que requiere. Aunque actualmente entreno de manera
+          irregular, el ejercicio sigue siendo mi refugio principal para liberar
+          estrés y retomar el equilibrio personal.
+        </p>
+        <h3>Disciplinas que he practicado</h3>
+        <div class="flex-between">
+          <article class="caja">
+            <h4>Halterofilia</h4>
+            <p>
+              Un deporte de técnica pura que requiere máxima concentración y
+              fuerza explosiva en cada levantamiento.
+            </p>
+            <img src="img/halterofilia.jpg" alt="Atleta levantando pesas" />
+          </article>
+          <article class="caja">
+            <h4>Taekwondo</h4>
+            <p>
+              Fue mi primer acercamiento a la actividad física, enseñándome
+              disciplina y constancia desde muy pequeño.
+            </p>
+            <img src="img/tkd.jpg" alt="Persona practicando artes marciales" />
+          </article>
+          <article class="caja">
+            <h4>Gimnasio</h4>
+            <p>
+              Es mi actividad actual; me permite entrenar a mi ritmo, mejorar
+              físicamente y liberar las tensiones del día.
+            </p>
+            <img src="img/gym.jpg" alt="Interior de un gimnasio moderno" />
+          </article>
+          <article class="caja">
+            <h4>Calistenia</h4>
+            <p>
+              Me parece una disciplina increíble por el control corporal y la
+              fuerza relativa que se desarrolla usando solo el propio peso.
+            </p>
+            <img
+              src="img/calistenia.jpg"
+              alt="Persona haciendo ejercicio en barras"
+            />
+          </article>
+        </div>
+        <h2>Css utilizado</h2>
+        <img
+          class="codigo"
+          src="img/flex-between.png"
+          alt="imagen de coidgo css"
+        />
+      </section>
+
+      <hr />
+
+      <section class="seccion-pasatiempo">
+        <h2>Escuchar música</h2>
+        <p>
+          Es una parte esencial de mi rutina. Me acompaña en mis traslados a la
+          facultad, durante mis entrenamientos y en mis momentos de descanso en
+          casa. Es una actividad que realizo de forma casi automática para
+          ambientar cada parte de mi día.
+        </p>
+        <h3>Artistas que más he escuchado este año</h3>
+        <div class="flex-simple">
+          <article class="caja">
+            <h4>Bad Bunny</h4>
+            <p>
+              Su variedad de ritmos lo hace ideal para cualquier ocasión, desde
+              canciones energéticas hasta momentos más relajados.
+            </p>
+            <img src="img/badbunny.webp" alt="Bad Bunny en concierto" />
+          </article>
+          <article class="caja">
+            <h4>Junior H</h4>
+            <p>
+              Suelo escucharlo cuando busco un ambiente más tranquilo y calmado
+              gracias a su estilo melódico.
+            </p>
+            <img src="img/juniorh.jpg" alt="Junior H cantando" />
+          </article>
+          <article class="caja">
+            <h4>Rels B</h4>
+            <p>
+              Me gusta su estilo único y la frescura que aporta con letras que
+              se sienten más personales.
+            </p>
+            <img src="img/relsb.jpg" alt="Rels B en sesión de fotos" />
+          </article>
+          <article class="caja">
+            <h4>Duki</h4>
+            <p>
+              Es mi elección cuando necesito energía extra, especialmente
+              durante mis sesiones de ejercicio en el gimnasio.
+            </p>
+            <img src="img/duki.jpg" alt="Duki presentándose en vivo" />
+          </article>
+        </div>
+        <h2>Css utilizado</h2>
+        <img
+          class="codigo"
+          src="img/flex-simple.png"
+          alt="imagen de coidgo css"
+        />
+      </section>
+    </main>
+
+    <footer>
+      <h2>Página hecha por:</h2>
+      <address>
+        <strong>Roberto Pérez</strong><br />
+        Estudiante de Licenciatura en Tecnologías de la Información<br />
+        Facultad de Contaduría Pública y Administración
+      </address>
+    </footer>
+  </body>
 </html>
