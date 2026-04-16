@@ -56,3 +56,7 @@ a:hover {
     background-color: beige;
     color: black;
 }
+
+header {
+    background-color: rgba(255, 161, 85, 0.289);
+}
