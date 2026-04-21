@@ -1,5 +1,5 @@
 /*Crear las referencias hacia los objetos 
-que se van a programar */
+que se van a programar*/
 
 const inputNum1 = document.getElementById("num1");
 const inputNum2 = document.getElementById("num2");
