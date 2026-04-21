@@ -1,351 +1,250 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evidencia 2</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="CSS/estilos.css">
 </head>
 <body>
 
     <header>
-        <h2>Práctica 1 Evidencia 2</h2>
+        <h1>Evidencia 2 Práctica 1</h1>
+        <h2>Mis Pasatiempos</h2>
     </header>
 
     <main>
-
-        <header>
-            <h2><strong>Esta página es para mostrar mis pasatiempos</strong></h2>
-        </header>
 
         <p>
             En esta página se mostrarán algunos de mis
             <em>pasatiempos favoritos</em> y alguna información sobre ellos.
         </p>
-
-        <h3>Música de fondo</h3>
-        <audio controls>
-            <source src="audio/Audio_musica.mp3" type="audio/mpeg">
-        </audio>
-
-        <section>
-            <h2>Video que me pone de buen humor</h2>
-
-            <div class="contenedor direccion">
-                <iframe width="300" height="200"
-                src="https://www.youtube.com/embed/ScSW9C3DF18?si=48LxmxtKILc3bpuQ"
-                title="YouTube video player"
-                frameborder="0"
-                allowfullscreen>
-                </iframe>
-
-                <div class="tarjeta">
-                    <h3>Luka Luka ★ Night Fever</h3>
-                    <p>
-                        Este video me pone de buen humor, es una canción de Vocaloid y me gusta
-                        por su buen ritmo, es alegre y muy enérgica.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section class="codigo-css">
-            <h2>Código CSS del contenedor</h2>
-
-            <p>
-                Se utilizó para colocar las tarjetas una al lado de la otra.
-            </p>
-
-            <img src="IMG/Contenedor_index.jpeg" alt="Código CSS utilizado" width="350">
-        </section>
-        <br>
+        <div class="tarjeta">
+            <h3>Música de fondo</h3>
+            <audio controls>
+                <source src="AUDIO/Audio_musica.mp3" type="audio/mpeg">
+            </audio>
+        </div>        
 
         <article>
-            <h2>Mi primer pasatiempo es ver series</h2>
+            <h2>Ver series</h2>
 
             <div class="contenedor direccion">
+
                 <div class="tarjeta">
+                    <h3>Malcolm in the Middle</h3>
+                    <img src="IMG/Malcom.jpg" alt="Malcolm in the Middle">
                     <p>
-                        Ver series en <span class="plataforma">Netflix</span> y
-                        <span class="plataforma">Amazon Prime</span> es uno de mis
-                        pasatiempos favoritos porque me ayuda a <em>relajarme</em>.
+                        Me gusta porque es una serie divertida y relajante, ya la vi completa.
                     </p>
-
-                    <h3>Series que estoy viendo</h3>
-                    <ul>
-                        <li>Malcom in the Middle</li>
-                        <li>Jujutsu Kaisen</li>
-                        <li>Another</li>
-                    </ul>
-                </div>
-
-                <figure class="tarjeta">
-                    <img src="https://images.pexels.com/photos/4009398/pexels-photo-4009398.jpeg"
-                    alt="Persona viendo series" width="300">
-                    <figcaption>Disfrutando una tarde viendo mis series favoritas.</figcaption>
-                </figure>
-            </div>
-
-            <div class="contenedor centro">
-                <div class="tarjeta">
-                    <h3>Top 3 géneros que más me gustan</h3>
-                    <ol>
-                        <li>Suspenso</li>
-                        <li>Terror</li>
-                        <li>Fantasía</li>
-                    </ol>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Series favoritas</h3>
-                    <dl>
-                        <dt><mark>Malcom in the Middle</mark></dt>
-                        <dd>Trata sobre la vida de Malcolm y su familia caótica y divertida.</dd>
-
-                        <dt><mark>Jujutsu Kaisen</mark></dt>
-                        <dd>Narra la historia de Yuji Itadori y su lucha contra maldiciones.</dd>
-                    </dl>
-                </div>
-            </div>
-
-            <div class="contenedor wrap">
-                <div class="tarjeta">
-                    <h3>Serie que más me gusta</h3>
-                    <p>Me gusta el suspenso porque siempre mantiene la atención.</p>
-                </div>
-
-                <div class="tarjeta">
-                    <h3>Tráiler de una serie</h3>
+                    <h3>Jujutsu Kaisen</h3>
                     <iframe width="300" height="180"
                     src="https://www.youtube.com/embed/GwaRztMaoY0?si=VMf-4dDl83YuQXnM"
                     title="YouTube video player"
                     frameborder="0"
                     allowfullscreen>
                     </iframe>
+                    <p>
+                        Es una de mis series favoritas por la acción y el suspenso, es muy entretenido y me gustan sus personajes, mi personaje favorito es Nobara.
+                    </p>
                 </div>
+
+                <div class="tarjeta">
+                    <h3>Another</h3>
+                    <img src="IMG/Another.jpg" alt="Another">
+                    <p>
+                        Me gusta porque tiene una historia de terror interesante, fue de los primeros animes que vi.
+                    </p>
+                </div>
+
             </div>
 
             <section class="codigo-css">
-            <h2>Código CSS del contenedor</h2>
-
-            <p>
-                Eso centra las tarjetas.
-            </p>
-
-            <img src="IMG/Contenedor_VerSeries.jpeg" alt="Código CSS utilizado" width="350">
+                <h3>Código CSS utilizado</h3>
+                <p>
+                    Aquí se utilizó <strong>flex-direction: column</strong>, acomoda los elementos en columna, uno debajo del otro.
+                </p>
+                <img src="IMG/FlexDirection.jpeg" alt="Código CSS del flexbox utilizado">
             </section>
         </article>
-        <br>
 
         <article>
-            <h2>Mi segundo pasatiempo es cocinar</h2>
-
-            <div class="contenedor direccion">
-                <div class="tarjeta">
-                    <p>
-                        Cocinar se volvió uno de mis pasatiempos favoritos porque me relaja y me entretiene.
-                    </p>
-
-                    <p>
-                        Para mí, la cocina es un espacio donde puedo
-                        <mark>expresar mi creatividad</mark>.
-                    </p>
-                </div>
-
-                <figure class="tarjeta">
-                    <img src="img/Cocinando.jpg" alt="Cocinando postres" width="300">
-                    <figcaption>Preparando uno de mis postres favoritos.</figcaption>
-                </figure>
-            </div>
+            <h2>Cocinar</h2>
 
             <div class="contenedor centro">
+
                 <div class="tarjeta">
-                    <h3>Postres que he hecho</h3>
-                    <ul>
-                        <li>Cupcakes de vainilla</li>
-                        <li>Pay de queso</li>
-                        <li>Panqué de plátano</li>
-                    </ul>
+                    <h3>Cupcakes</h3>
+                    <img src="https://images.pexels.com/photos/1028704/pexels-photo-1028704.jpeg" alt="Cupcakes">
+                    <p>
+                        Me gusta decorarlos, es un postre que hago muy seguido en Navidad.
+                    </p>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Top 3 postres</h3>
-                    <ol>
-                        <li>Pay de queso</li>
-                        <li>Panqué de plátano</li>
-                        <li>Cupcakes de vainilla</li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="contenedor wrap">
-                <div class="tarjeta">
-                    <h3>Descripción de postres</h3>
-                    <dl>
-                        <dt><span class="postre">Cupcakes de vainilla</span></dt>
-                        <dd>Son suaves, dulces y muy fáciles de decorar.</dd>
-                    </dl>
-                </div>
-
-                <div class="tarjeta">
-                    <h3>Video preparando un postre</h3>
-                    <video width="300" controls>
-                        <source src="video/video_cocina.mp4" type="video/mp4">
+                    <h3>Pay de queso</h3>
+                    <video width="300" controls> 
+                        <source src="VIDEO/video_cocina.mp4" type="video/mp4">
                     </video>
+                    <p>
+                        Es mi postre favorito porque queda muy suave y dulce, el de queso con fresa es mi especialidad.
+                    </p>
                 </div>
+
+                <div class="tarjeta">
+                    <h3>Panqué de plátano</h3>
+                    <img src="https://images.pexels.com/photos/4114141/pexels-photo-4114141.jpeg" alt="Panqué de plátano">
+                    <p>
+                        Me gusta prepararlo porque es sencillo y sabe muy bien.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Galletas</h3>
+                    <img src="IMG/Galletas.jpg" alt="Galletas">
+                    <p>
+                        También disfruto hacer galletas porque son fáciles de decorar.
+                    </p>
+                </div>
+
             </div>
 
             <section class="codigo-css">
-            <h2>Código CSS del contenedor</h2>
-            <p>
-                Eso centra las tarjetas.
-            </p>
-            <img src="IMG/Contendedor_Cocinar.jpeg" alt="Código CSS utilizado" width="350">
+                <h3>Código CSS utilizado</h3>
+                <p>
+                    Aquí se usó <strong>flex-wrap: wrap;</strong> hace que los elementos pasen a otra línea si no caben.
+                </p>
+                <img src="IMG/FlexWrap.jpeg" alt="Código CSS del flexbox utilizado">
             </section>
         </article>
-        <br>
 
         <article>
-            <h2>Mi tercer pasatiempo es jugar videojuegos</h2>
-
-            <div class="contenedor direccion">
-                <div class="tarjeta">
-                    <p>
-                        Jugar videojuegos es uno de mis pasatiempos favoritos porque me permite
-                        relajarme y divertirme.
-                    </p>
-                </div>
-
-                <figure class="tarjeta">
-                    <img src="https://images.pexels.com/photos/28582719/pexels-photo-28582719.jpeg"
-                    alt="Juego" width="300">
-                    <figcaption>Jugar me relaja y distrae.</figcaption>
-                </figure>
-            </div>
-
-            <div class="contenedor centro">
-                <div class="tarjeta">
-                    <h3>Juegos que he jugado recientemente</h3>
-                    <ul>
-                        <li><span class="juego">Roblox</span></li>
-                        <li>Pou</li>
-                        <li>Free Fire</li>
-                    </ul>
-                </div>
-
-                <div class="tarjeta">
-                    <h3>Top 3 juegos favoritos</h3>
-                    <ol>
-                        <li>Roblox</li>
-                        <li>Fnaf</li>
-                        <li>Project Diva</li>
-                    </ol>
-                </div>
-            </div>
+            <h2>Videojuegos</h2>
 
             <div class="contenedor wrap">
+
                 <div class="tarjeta">
-                    <h3>Juego favorito</h3>
+                    <h3>Roblox</h3>
+                    <img src="IMG/Roblox.png" alt="Roblox">
                     <p>
-                        Roblox es mi juego favorito porque tiene muchísimas experiencias diferentes.
+                        Es mi juego favorito porque tiene muchas experiencias diferentes, disfruto jugar con mis hermanas.
                     </p>
                 </div>
 
-                <aside class="tarjeta">
-                    <h3>Dato curioso</h3>
+                <div class="tarjeta">
+                    <h3>FNAF</h3>
+                    <img src="IMG/FNAF.jpg" alt="FNAF">
                     <p>
-                        Los videojuegos ayudan a mejorar la coordinación y rapidez mental.
+                        Me gusta porque combina suspenso y terror.
                     </p>
-                </aside>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Project Diva</h3>
+                    <iframe width="300" height="200"
+                    src="https://www.youtube.com/embed/ScSW9C3DF18?si=48LxmxtKILc3bpuQ"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allowfullscreen>
+                    </iframe>
+                    <p>
+                        Me gusta por sus canciones de Vocaloid, además en esa época fue que conocí Vocaloid. Mis favoritos son Rin y Len.
+                    </p>
+                </div>
+
+                <div class="tarjeta">
+                    <h3>Pou</h3>
+                    <img src="IMG/Pou.jpg" alt="Pou">
+                    <p>
+                        Es un juego sencillo pero entretenido, lo juego actualmente.
+                    </p>
+                </div>
+
             </div>
 
             <section class="codigo-css">
-            <h2>Código CSS del contenedor</h2>
-            <p>
-                Eso acomoda las tarjetas en filas y, si no caben, pasan abajo.
-            </p>
-            <img src="IMG/Contenedor_VideoJuegos.jpeg" alt="Código CSS utilizado" width="350">
+                <h3>Código CSS utilizado</h3>
+                <p>
+                    Aquí utilicé <strong>flex-flow: row wrap;</strong> que acomoda los elementos en fila y permite que bajen a otra línea si no caben.
+                </p>
+                <img src="IMG/FlexFlow.png" alt="Código CSS del flexbox utilizado">
             </section>
-
         </article>
-        <br>
 
         <article>
-            <h2>Mi cuarto pasatiempo es pasar tiempo con mi familia y mi pareja</h2>
+            <h2>Pasar tiempo con mis seres queridos</h2>
 
-            <div class="contenedor direccion">
+            <div class="contenedor justificado">
+
                 <div class="tarjeta">
+                    <h3>Ir al cine</h3>
+                    <img src="https://images.pexels.com/photos/14746411/pexels-photo-14746411.jpeg" alt="Cine">
                     <p>
-                        Pasar tiempo con mi familia y mi pareja me hace sentir
-                        <em>tranquila y feliz</em>.
-                    </p>
-                </div>
-
-                <figure class="tarjeta">
-                    <img src="https://images.pexels.com/photos/5553123/pexels-photo-5553123.jpeg"
-                    alt="Tiempo en familia" width="300">
-                    <figcaption>Disfrutando tiempo de calidad con las personas que quiero.</figcaption>
-                </figure>
-            </div>
-
-            <div class="contenedor centro">
-                <div class="tarjeta">
-                    <h3>Lugares a los que he ido</h3>
-                    <ul>
-                        <li>Cine</li>
-                        <li>Museo</li>
-                        <li>Plaza</li>
-                    </ul>
-                </div>
-
-                <div class="tarjeta">
-                    <h3>Top 3 lugares favoritos</h3>
-                    <ol>
-                        <li>Plaza</li>
-                        <li>Cine</li>
-                        <li><span class="lugar">Carl's Jr</span></li>
-                    </ol>
-                </div>
-            </div>
-
-            <div class="contenedor wrap">
-                <div class="tarjeta">
-                    <h3>Lugar favorito</h3>
-                    <p>
-                        Me gusta ir a la plaza porque puedo caminar y disfrutar el ambiente.
+                        Me gusta ir al cine porque podemos ver películas juntos y comer palomitas. La que más me ha gustado ver en el cine fue KNY: Infinte Castle
                     </p>
                 </div>
 
                 <div class="tarjeta">
-                    <h3>Música de fondo</h3>
-                    <audio controls>
-                        <source src="audio/Audio_musica.mp3" type="audio/mpeg">
-                    </audio>
+                    <h3>Salir a la plaza</h3>
+                    <img src="https://images.pexels.com/photos/13753893/pexels-photo-13753893.jpeg" alt="Plaza">
+                    <p>
+                        Me gusta caminar y pasar tiempo con las personas que quiero. Me gusta ir al Park Circus.
+                    </p>
                 </div>
+
+                <div class="tarjeta">
+                    <h3>Ir a comer</h3>
+                    <img src="IMG/Comida.jpeg" alt="Comida">
+                    <p>
+                        También disfruto salir a comer y platicar, divertirse de esa manera, aunque no me gusta mucho salir pero sí salir con personas que quiero.
+                    </p>
+                </div>
+
             </div>
 
             <section class="codigo-css">
-            <h2>Código CSS del contenedor</h2>
-            <p>
-                Eso acomoda las tarjetas en filas y, si no caben, pasan abajo.
-            </p>
-            <img src="IMG/Contenedor_FamuliayPareja.jpeg" alt="Código CSS utilizado" width="350">
+                <h3>Código CSS utilizado</h3>
+                <p>
+                    Aquí ustilicé <strong>justify-content: space-evenly;</strong> que deja el mismo espacio entre todos los elementos.
+                </p>
+                <img src="IMG/FlexJustify.png" alt="Código CSS del flexbox utilizado">
             </section>
-
         </article>
-        <br>
 
-        <section>
-            <div class="contenedor explicacion">
+        <article>
+            <h2>Canción Favorita (★ ω ★)</h2>
+
+            <div class="twice">
+
                 <div class="tarjeta">
-                    <h3>Canción favorita de TWICE</h3>
-
-                    <p>Mi canción favoritade <strong>TWICE</strong>se llama <em>Fancy</em>, salió en el 2019 y trata sobre querer mucho a una persona, tanto que te sonrojas con solo pensar su nombre
+                    <h3>Fancy</h3>
+                    <img src="IMG/Twice_Fancy.jpg" alt="TWICE">
+                    <p>
+                        Mi canción favorita de TWICE es Fancy.
                     </p>
-                    <img src="IMG/Twice __ Fancy You _ Digital Cover.jpg" alt="Código CSS utilizado" width="350">
                 </div>
+
+                <div class="tarjeta grande">
+                    <h3>¿Por qué me gusta? ☆ </h3>
+                    <p>
+                        Me gusta porque tiene una melodía muy alegre, una coreografía bonita y un video muy colorido.
+                        Además, me gusta escucharla cuando estoy de buen humor porque me hace sentir feliz.
+                    </p>
+                </div>
+
             </div>
-        </section>
+
+            <section class="codigo-css">
+                <h3>Código CSS utilizado</h3>
+                <p>
+                    Aquí se utilizó <strong>align-items: center;</strong> esto centra los elementos verticalmente.
+                </p>
+                <img src="IMG/FlexAlign.png" alt="Código CSS del flexbox utilizado">
+            </section>
+        </article>
 
     </main>
 

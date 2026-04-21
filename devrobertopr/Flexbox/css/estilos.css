@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: lightgrey;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img {
+  width: 300px;
+  height: 200px;
+}
+header {
+  border: 3px solid black;
+  border-radius: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: lightgoldenrodyellow;
+}
+main {
+  background-color: lightblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+.seccion-pasatiempo {
+  text-align: center;
+}
+.caja {
+  width: 320px;
+  height: 450px;
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  background-color: lightcyan;
+  margin: 2px;
+  border-radius: 25px;
+}
+main {
+  border: 2px solid black;
+  margin-bottom: 1px;
+}
+footer {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 10px;
+}
+hr {
+  padding: 2px;
+  background-color: black;
+}
+
+.flex-simple {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-columna {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-centro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-around {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flex-between {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.flex-evenly {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.caja h4,
+.caja h3 {
+  background-color: #000000;
+  color: white;
+  /* display: inline-block; */
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.codigo {
+  width: 400px;
+}

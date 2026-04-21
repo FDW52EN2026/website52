@@ -1,0 +1,62 @@
+.foto_gym {
+    border: 1em double rgb(107, 56, 38);
+    flex-grow: 1;
+    text-align: center;
+}
+
+.foto_gym img {
+    width: 100%; 
+    max-width: 350px;
+    max-height: 500px;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+.gym {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between ; 
+    border: 2px solid rgba(169, 118, 36, 0.615);
+    background-color: beige;
+    padding: 30px;
+}
+
+h1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 30px;
+    color: #222;
+}
+
+nav {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    background-color: rgba(128, 64, 0, 0.755);
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border: 4px solid black;
+}
+
+a:hover {
+    background-color: beige;
+    color: black;
+}
+
+header {
+    background-color: rgba(255, 161, 85, 0.289);
+}

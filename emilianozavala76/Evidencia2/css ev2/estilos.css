@@ -1,0 +1,49 @@
+body {
+    background-color: cornflowerblue;
+}
+
+.c1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c2 {
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    height: 350px;
+}
+
+.c4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.c5 {
+    display: flex;
+    justify-content: center;
+}
+.caja {
+    border: 5px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+
+.titulo {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.parrafo {
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

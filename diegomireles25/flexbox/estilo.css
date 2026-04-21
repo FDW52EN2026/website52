@@ -1,0 +1,49 @@
+.c1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.caja {
+    border: 3px solid black;
+    margin: 20px;
+    padding: 10px;
+    width: 550px; 
+    text-align: center;
+    background-color: beige;
+}
+
+.c2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c3 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.c4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+* {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(114, 161, 114);
+}
+
+
+

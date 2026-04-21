@@ -17,13 +17,7 @@ nav {
   background-color: #ff00f2;
   border-radius: 8px;
 }
-.c1 {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 0ch;
 
-}
  
 
 .caja img {
@@ -51,33 +45,12 @@ nav {
 
 
 
-.c2 img:first-child{
-    float: left;
-    margin-right: 1em;
-}
-
-.c2 img:nth-of-type(2) {
-    float: right;
-    margin-left: 1em;
-}
 
 .caja {
     border: 1px solid black;
     background-color: peachpuff;
-}
+ }
 
-.c3 {
-    background-color: gray;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.c3 article {
-    float: left;
-    width: 25%;
-}
 
 .clearfix::after {
     clear: both;
@@ -89,31 +62,46 @@ div {
     margin-bottom: 1em;
 }
 
-.c4 {
-    display: flex;
-}
-
 .c5 {
     display: flex;
     flex-direction: row-reverse;
+    
 }
+.cajam{flex-shrink: 1; background-color: darkslategrey;}
 
 .c6 {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 10%;
+    flex-direction: 1;
 }
+.caja {
+    flex-basis: 250%;
+     border: 1px solid #ccc;
+     padding: 10px;
 
+
+}
 .c7 {
     display: flex;
     flex-flow: column wrap;
     height: 100px;
-    background-color: teal;
+
+
+ }
+ /* Orden de los días */
+.lunes     { order: 1; background-color: brown; }
+.martes    { order: 2; background-color: rgb(123, 61, 74);}
+.miercoles { order: 3; background-color: aqua; }
+.jueves    { order: 4; background-color: cadetblue;}
+.viernes   { order: 5; background-color: lightskyblue;}
+
+.caja {
+    flex-basis: 100%; 
+    border: 1px solid #ccc;
+    padding: 10px;
 }
 
-.c8 {
-    display: flex;
-    justify-content: space-between;
-}
 
 .c9 {
     display: flex;
@@ -128,15 +116,7 @@ div {
     text-align: center;  
 }           
 
-.c10 {
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.c11 {
-    display: flex;
-    justify-content: center;
-}
 
 .c12 {
     display: flex;

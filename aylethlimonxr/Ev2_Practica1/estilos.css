@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(159, 159, 231);
+    color:rgb(29, 21, 88);
+}
+
+h1, h2 {
+    padding-left: 15px;
+}
+
+h3 {
+    color: aliceblue;
+}
+
+p {
+    color: aliceblue;
+}
+
+
+.caja {
+    border: 3px solid rgb(59, 47, 120);
+    background-color: rgb(129, 129, 207);
+    text-align: center;
+}
+
+.c1 .caja {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.c2 .caja {
+    margin: 20px;
+    padding: 10px;
+    width: 500px;
+}
+
+.c3 .caja {
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 500px;
+    height: 250px;
+}
+
+.c1 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+
+.c2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}

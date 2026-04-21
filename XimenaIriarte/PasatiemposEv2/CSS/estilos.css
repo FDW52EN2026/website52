@@ -2,6 +2,7 @@ header{
     border: double black 5px;
     background-color: bisque;
     padding: 10px;
+    text-align: center;
 }
 
 body{
@@ -15,87 +16,45 @@ main{
 }
 
 article{
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid white;
     box-shadow: 5px 5px 5px rgb(248, 176, 176);
-    margin-bottom: 25px;
+    margin: 30px auto;
     padding: 20px;
     background-color: lavenderblush;
+    width: 85%;
+}
+
+article h2{
+    text-align: center;
 }
 
 article h3{
-    color: rgb(0, 0, 0);
+    color: black;
     background-color: rgb(248, 176, 176);
     padding: 5px;
+    border-radius: 5px;
 }
 
 footer{
     background-color: rgb(248, 176, 176);
     border: double black 10px;
     padding: 10px;
-}
-
-.plataforma{
-    font-weight: bold;
-    color: #e50914;
-}
-
-.postre{
-    color: purple;
-    font-weight: bold;
-    font-style: italic;
-}
-
-.juego{
-    color: #e84393;
-    font-weight: bold;
-}
-
-.lugar{
-    color: #d35400;
-    font-weight: bold;
-}
-
-audio{
-    margin-top: 10px;
-}
-
-section{
-    margin-top: 20px;
-}
-
-mark{
-    background-color: #ffeaa7;
-    padding: 2px 4px;
-    border-radius: 4px;
-}
-
-figure{
-    margin: 0;
     text-align: center;
-}
-
-figcaption{
-    font-size: 14px;
-    color: #636e72;
-    margin-top: 5px;
-}
-
-aside{
-    margin-top: 10px;
 }
 
 .contenedor{
     display: flex;
     gap: 20px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .direccion{
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
 .centro{
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -106,8 +65,17 @@ aside{
     align-items: flex-start;
 }
 
-.explicacion{
+.justificado{
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.twice{
+    display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 20px;
+    height: 280px;
 }
 
 .tarjeta{
@@ -117,36 +85,23 @@ aside{
     background-color: rgba(248, 176, 176, 0.2);
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgb(248, 176, 176);
+    text-align: center;
 }
 
-.tarjeta img,
-.tarjeta iframe,
-.tarjeta video{
-    max-width: 100%;
+.grande{
+    width: 260px;
+}
+
+.tarjeta img{
+    width: 120px;
+    height: 115px;
+    object-fit: cover;
     border-radius: 8px;
-}
-
-.codigo-css{
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f3dcdc;
-    border: 2px solid #f5abab;
-    border-radius: 10px;
-}
-
-.codigo-css h2{
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.codigo-css p{
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.codigo-css img{
     display: block;
-    max-width: 100%;
-    border: 1px solid #666;
-    margin: auto;
+    margin: 10px auto;
+}
+
+p{
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

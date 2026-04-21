@@ -15,3 +15,11 @@ html {
   border-top: 1px solid gray;
   border-left: 1px solid gray;
 }
+hr {
+  padding: 2px;
+  background-color: black;
+}
+.contenedor-ev2 {
+  border: 1px solid;
+  padding: 5px;
+}

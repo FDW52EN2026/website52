@@ -1,0 +1,29 @@
+.caja{
+    border: 1px dashed grey;
+    background-color: white;
+}
+
+.c1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.c2 {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.c3 {
+    display: flex;
+    flex-flow: column wrap;
+}
+.c4 {
+    display: flex;
+    justify-content: center;
+}
+.c5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
