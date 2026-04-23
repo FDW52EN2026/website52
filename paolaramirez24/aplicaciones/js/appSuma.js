@@ -11,6 +11,7 @@ botonSuma.addEventListener("click", (e) => {
   suma = num1 + num2;
   inputSuma.value = suma;
   });
+  comentario
   */
 const inputnum1 = document.getElementById("num1");
 const inputnum2 = document.getElementById("num2");
