@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo de sueldo</title>
+</head>
+<body>
+    <h1>Empresa La moderna</h1>
+    <form action="">
+        <div>
+            <label for="horas">Horas trabajadas:</label>
+            <input type="text" name="horas" id="horas">
+        </div>
+        <div>
+            <label for="pago">Pago por hora:</label>
+            <input type="text" name="pago" id="pago">
+        </div>
+        <div>
+            <label for="turno">Turno</label>
+            <select name="turno" id="turno">
+                <option value="1">Matutino</option>
+                <option value="2">Vespertino</option>
+                <option value="3">Nocturno</option>
+            </select>
+        </div>
+        <div>
+            <label for="sueldo">Sueldo:</label>
+            <input readonly type="text" name="sueldo" id="sueldo">
+        </div>
+        <div>
+            <button id="botonCalcular">Calcular</button>
+        </div>
+    </form>
+    <script src="js/appSueldo.js"></script>
+</body>
+</html>
