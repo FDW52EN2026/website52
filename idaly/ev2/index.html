@@ -3,35 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo de sueldo</title>
+    <title>Calculadora</title>
 </head>
+
 <body>
-    <h1>Empresa La moderna</h1>
+    <h1 style="color: rgb(91, 19, 19);">Empresa La FACPYA</h1>
     <form action="">
         <div>
-            <label for="horas">Horas trabajadas:</label>
-            <input type="text" name="horas" id="horas">
+            <label for="num1">Número 1:</label>
+            <input type="text" name="num1" id="num1">
         </div>
         <div>
-            <label for="pago">Pago por hora:</label>
-            <input type="text" name="pago" id="pago">
+            <label for="num2">Número 2:</label>
+            <input type="text" name="num2" id="num2">
         </div>
         <div>
-            <label for="turno">Turno</label>
-            <select name="turno" id="turno">
-                <option value="1">Matutino</option>
-                <option value="2">Vespertino</option>
-                <option value="3">Nocturno</option>
-            </select>
+            <label for="Operacion">Operacion:</label>
+            <input type="text" name="Operacion" id="operacion">
         </div>
         <div>
-            <label for="sueldo">Sueldo:</label>
-            <input readonly type="text" name="sueldo" id="sueldo">
+            <label for="Resultado">Resultado:</label>
+            <input type="text" name="Resultado" id="resultado">
         </div>
-        <div>
-            <button id="botonCalcular">Calcular</button>
-        </div>
+        <button id="botonCalcular">Calcular</button>
     </form>
-    <script src="js/appSueldo.js"></script>
+    <script src="js/appSuma.js"></script>
 </body>
 </html>
