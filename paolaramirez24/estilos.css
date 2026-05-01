@@ -2,6 +2,34 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+  background-color: rgba(225, 130, 160, 0.45);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  padding: 10px;
+  border: 3px inset rgb(160, 110, 125);
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px dimgray;
+}
+
+h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  text-align: center;
+  background-color: rgba(254, 187, 196, 0.432);
+  padding: 5px;
+  border: 3px dotted rgb(160, 110, 125);
+  border-radius: 30px;
+  text-shadow: 2px 2px 4px dimgray;
+}
+
+h3 {
+  padding-left: 20px;
+  background-color: rgba(210, 125, 160, 0.25);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
 .evidencia h2 {
   text-align: center;
 }
